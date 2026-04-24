@@ -1,0 +1,685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-11-13 02:03\n"
+"Last-Translator: \n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: th\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "Plank Reloaded"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "ยังคงเรียบง่ายอย่างน่าทึ่ง"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"Plank Reloaded เป็นโปรเจกต์แยกจาก Plank ดั้งเดิม ให้บริการด็อกแบบง่ายๆ "
+"สำหรับสภาพแวดล้อมเดสก์ท็อป X11 แม้การพัฒนาจะเริ่มต้นด้วยการเน้นที่ Cinnamon "
+"แต่ตอนนี้เราสนับสนุนสภาพแวดล้อมเดสก์ท็อปหลายตัวอย่างแข็งขัน รวมถึง MATE และ Xfce โดย "
+"Wayland ยังไม่รองรับในขณะนี้"
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"เหมือนกับรุ่นก่อนหน้า Plank Reloaded มุ่งหวังที่จะเป็นด็อกที่เรียบง่ายที่สุดในโลก "
+"โดยให้เพียงสิ่งที่ด็อกต้องการและไม่มีอะไรเพิ่มเติมอีก "
+"นอกจากนี้ยังคงเป็นไลบรารีที่สามารถขยายเพื่อสร้างโปรแกรมด็อกอื่นๆ ที่มีคุณสมบัติขั้นสูงกว่า"
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "ด็อกด้วยธีม Matte"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "การตั้งค่าลักษณะ"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "การตั้งค่าพฤติกรรม"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "การตั้งค่า Docklet"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "ด็อก"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "ธีม:"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "ตำแหน่ง:"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "ด้านซ้าย"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "ด้านขวา"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "ด้านบน"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "ด้านล่าง"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "บนจอแสดงผลที่ใช้งาน:"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "ช่วงเวลาตรวจสอบเป็นวินาทีสำหรับการตรวจจับจอแสดงผลที่ใช้งาน"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "การจัดเรียง:"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "ยืดเต็มจอ"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "ต้น"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "ท้าย"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "กึ่งกลาง"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "แสดงบนหน้าจอหลักเท่านั้น:"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "ระยะห่างจากขอบจอคิดเป็นเปอร์เซ็น"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "การจัดเรียงของไอคอน:"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "ขนาดไอคอน:"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "ซูมไอคอน:"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "ขนาดช่องว่าง:"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "ลักษณะ"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "ซ่อนอัฉริยะ"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "ซ่อนอัตโนมัติ"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "หลบหน้าต่างที่แสดงเต็มจอ"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "หลบหน้าต่าง"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "หลบหน้าต่างที่ใช้งาน"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "การซ่อนดอค"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "ดีเลย์ของการซ่อน"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "ดีเลย์ก่อนซ่อนเป็นมิลลิวินาที"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "ดีเลย์ของการเลิกซ่อน"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "ดีเลย์ก่อนการเลิกซ่อนเป็นมิลลิวินาที"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "แสดงด้วยการกด:"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "การจัดการรายการ"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "แสดงรายการที่ไม่ได้ปักหมุด"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "แสดงจำกัดเฉพาะในเวอร์สเปค"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "เปิดใช้คำแนะนำ:"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "ล็อกไอคอน"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "ยึด Docklet:"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "ยึดไฟล์:"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "พฤติกรรม"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "Docklet"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "ไม่มีแอปพลิเคชันที่ใช้ได้"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "แอปพลิเคชัน"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "แก้ไขเมนู"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "เลือกไอคอนกำหนดเอง"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "รีเซ็ตเป็นไอคอนเริ่มต้น"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "ไอคอนใหญ่"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "เลือกไอคอนกำหนดเอง"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "เลือก"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "ไฟล์ภาพ"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "เพียงแค่เปิดแอปพลิเคชันใดๆ ของคุณ"
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "ไม่มีแบตเตอรี่"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "แบตเตอรี่"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "ไม่พบแบตเตอรี่"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "เกิดข้อผิดพลาดในการค้นหาแบตเตอรี่"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "แบตเตอรี่"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "แสดงข้อมูลแบตเตอรี่"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "คลิปบอร์ดว่างเปล่าในขณะนี้"
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_ล้าง"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "ติดตามการเลือกด้วยเมาส์"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "ติดตามภาพ"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "เปิดใช้การติดตามคลิปบอร์ด"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "รายการสูงสุด"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "ภาพ"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "Clippy"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "เก็บรายการคลิปบอร์ดล่าสุด"
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "นาฬิกาดิ_จิทัล"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "นาฬิกา _24 ชั่วโมง"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "แสดง_วันที่"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "นาฬิกา"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "ตอนนี้เวลาเท่าไหร่?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "ปฏิทิน"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "มอนิเตอร์ซีพียู"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "จับตาดูซีพียูนั่น และเมื่อมันทำงานผิดปกติ..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "แสดงเดสก์ท็อป"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "เดสก์ท็อป"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "แสดงเดสก์ท็อปของคุณ"
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "การแจ้งเตือน"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "เมื่อสักครู่"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d นาทีที่แล้ว"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d ชั่วโมงที่แล้ว"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "เปิดใช้การ_หมดอายุ"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "แสดง_จำนวน"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "แสดงแบบ_ชั่วคราว"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "ล้างการแจ้งเตือน"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "Docklet การแจ้งเตือนแบบง่าย"
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "ไม่มีรายการในถังขยะ"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "%u รายการในถังขยะ"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "ล้างรายการทั้งหมดจากถังขยะหรือไม่?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "รายการทั้งหมดในถังขยะจะถูกลบอย่างถาวร"
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_ยกเลิก"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "ล้าง_ถังขยะ"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "ลากวางเพื่อย้ายไปยังถังขยะ"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "เ_ปิดถังขยะ"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "ถังขยะ"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "มาดูถังขยะของคุณกัน!"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_รูปแบบ"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "เ_ส้น"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_จุด"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_ช่องว่าง"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_กลับสี"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "ตัวแบ่ง"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "เพียงแค่ตัวแบ่ง"
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "พื้นที่ทำงาน"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "พื้นที่ทำงาน %d จาก %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "พื้นที่ทำงาน %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "แสดง_ตัวอย่างสด"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "ตัวสลับพื้นที่ทำงานแบบกราฟิก"
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "ลากวางเพื่อเพิ่มลงในด็อก"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Artiya Thinkumapang https://launchpad.net/~artiya4u\n"
+"  Rico Tzschichholz https://launchpad.net/~ricotz\n"
+"  คเชนทร์ https://launchpad.net/~kachaint"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "เก็บไว้ในดอค"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "ปิดทั้งหมด"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "ปิ_ด"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "ลากวางเพื่อเปิดด้วย %s"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "ตัวเลือก_การแสดงผล"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "เปิดไฟล์บราวเซอร์"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "ตัวเลือกการแสดงผล"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_ตกลง"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "เรียงตาม:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "ชื่อ"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "ชนิด"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "ขนาด"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "วันที่สร้าง"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "วันที่แก้ไข"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "รูปแบบ:"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "แบบง่าย"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "แบบกระเบื้อง"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "ไอคอนใหญ่:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "แสดงไฟล์ที่ซ่อนอยู่:"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "เปิด"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "เปิดโฟลเดอร์ที่เก็บไว้"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "ไดเรกทอรีว่าง"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "ลากวางไฟล์ลงที่นี่"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "ขอความช่วยเหลือออนไลน์"
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "แปลแอพพลิเคชั่นนี้"
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_ปรับแต่ง"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "เ_กี่ยวกับ"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_ออก"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "ปรับแต่ง"
+
+#~ msgid "dock"
+#~ msgstr "ด็อก"
+
+#~ msgid "launch"
+#~ msgstr "เปิดใช้"
+
+#~ msgid "panel"
+#~ msgstr "แผง"
+
+#~ msgid "start"
+#~ msgstr "เริ่ม"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "ทีมผู้พัฒนา Plank Reloaded"

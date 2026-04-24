@@ -1,0 +1,688 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-11-13 03:31\n"
+"Last-Translator: \n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: fi\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "Plank Reloaded"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "Edelleen typerästi yksinkertainen"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"Plank Reloaded on alkuperäisen Plank-projektin haarautuma, joka tarjoaa "
+"yksinkertaisen telakan X11-työpöytäympäristöille. Vaikka kehitys alkoi "
+"keskittyen Cinnamoniin, tuemme nyt aktiivisesti useita työpöytäympäristöjä, "
+"mukaan lukien MATE ja Xfce. Wayland ei ole tuettu tällä hetkellä."
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"Kuten edeltäjänsä, Plank Reloaded pyrkii olemaan yksinkertaisin telakka "
+"maailmassa, tarjoten juuri sen mitä telakka tarvitsee eikä mitään enempää. "
+"Se on myös kirjasto, jota voidaan laajentaa luomaan muita telakkaohjelmia "
+"edistyneemmillä ominaisuuksilla."
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "Telakka Matte-teemalla"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "Ulkoasuasetukset"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "Toiminta-asetukset"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "Telakkasovelma-asetukset"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "Telakka"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "Teema:"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "Sijainti:"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "Vasemmalla"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "Oikealla"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "Ylhäällä"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "Alhaalla"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "Aktiivisella näytöllä:"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "Kyselyn aikaväli sekunneissa aktiivisen näytön havaitsemiseen"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "Tasaus:"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "Täyttö"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "Alku"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "Loppu"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "Keskellä"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "Ensisijaisella näytöllä:"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "Siirtymä prosenteissa näytön näytön reunan keskiosasta"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "Kuvakkeiden kohdistus:"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "Kuvakekoko:"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "Kuvakesuurennus:"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "Välin koko:"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "Piilota aktiivisen ikkunan edestä"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "Piilota automaattisesti"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "Väistä suurennettuja ikkunoita"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "Väistä ikkunoita"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "Väistä aktiivista ikkunaa"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "Piilota telakka"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "Piilotuksen viive:"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "Viive millisekunneissa, ennen kuin telakka piilotetaan"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "Piilotuksen poistamisen viive:"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "Viive millisekunneissa ennen telakan näyttämistä"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "Paljastusherkkyys:"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "Kohteiden hallinta"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "Näytä kiinnittämättömät:"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "Rajoita työtilaan:"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "Työkaluvihjeet käytössä:"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "Lukitse kuvakkeet:"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "Ankkuroi telakkasovelmat:"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "Ankkuroi tiedostot:"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "Toiminta"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "Telakkasovelmat"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "Ei sovelluksia saatavilla"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "Muokkaa valikkoa"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "Valitse mukautettu kuvake"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "Palauta oletuskuvake"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "Suuret kuvakkeet"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "Valitse mukautettu kuvake"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "Valitse"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "Kuvatiedostot"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "Käynnistä yksinkertaisesti mikä tahansa sovelluksistasi."
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "Ei akkua"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "Akut"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "Akkuja ei löytynyt"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "Virhe akkujen etsimisessä"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "Akku"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "Näyttää akkutiedot"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "Leikepöytä on tällä hetkellä tyhjä."
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_Tyhjennä"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "Seuraa hiiren valintoja"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "Seuraa kuvia"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "Ota käyttöön leikepöydän seuranta"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "Enimmäismerkinnät"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "Kuva"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "Clippy"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "Säilytä viimeaikaiset leikepöytämerkinnät."
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "Di_gitaalinen kello"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "24 tunnin _kello"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "Näytä _päivämäärä"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "Kello"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "Paljonko kello on?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "Suoritinvalvonta"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "Pidä silmällä suoritinta. Ja kun se menee yli..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "Näytä työpöytä"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "Työpöytä"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "Näytä työpöytäsi."
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "Ilmoitukset"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "juuri nyt"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minuutti sitten"
+msgstr[1] "%d minuuttia sitten"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d tunti sitten"
+msgstr[1] "%d tuntia sitten"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "Ota käyttöön _vanheneminen"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "Näytä _määrä"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "Näytä _väliaikaiset"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "Tyhjennä ilmoitukset"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "Yksinkertainen ilmoitus-telakkasovelma."
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "Ei kohteita roskakorissa"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "%u kohde roskakorissa"
+msgstr[1] "%u kohdetta roskakorissa"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "Tyhjennä kaikki kohteet roskakorista?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Kaikki roskakorin kohteet poistetaan pysyvästi."
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_Peruuta"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "Tyhjennä _roskakori"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "Pudota siirtääksesi roskakoriin"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "_Avaa roskakori"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "Roskakori"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "Katso roskakorisi!"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_Tyyli"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "_Viiva"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_Piste"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_Väli"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_Käännä väri"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "Erotin"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "Vain erotin."
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "Työtilat"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "Työtila %d / %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "Työtila %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "_Reaaliaikaiset esikatselut"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "Graafinen työtilanvaihdin."
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "Tiputa lisätäksesi telakkaan"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Jiri Grönroos https://launchpad.net/~jiri-gronroos\n"
+"  Rico Tzschichholz https://launchpad.net/~ricotz"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "Pi_dä käynnistimessä"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "Sulje kai_kki"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "_Sulje"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "Pudota avataksesi sovelluksella %s"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "_Näyttöasetukset"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "A_vaa tiedostonhallinnassa"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "Näyttöasetukset"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_OK"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "Lajittele:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "Nimi"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "Tyyppi"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "Koko"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "Luomispäivä"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "Muokkauspäivä"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "Tyyli:"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "Yksinkertainen"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "Ruutu"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "Suuret kuvakkeet:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "Näytä piilotetut tiedostot:"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "_Avaa"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "Näy_tä kansiossa"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "Tyhjä hakemisto"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "Pudota sovellukset tai tiedostot tähän"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "_Hae apua verkosta..."
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "Kää_nnä tämä ohjelma..."
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_Asetukset"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "_Tietoja"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_Lopeta"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "Asetukset"
+
+#~ msgid "dock"
+#~ msgstr "telakka"
+
+#~ msgid "launch"
+#~ msgstr "käynnistys"
+
+#~ msgid "panel"
+#~ msgstr "paneeli"
+
+#~ msgid "start"
+#~ msgstr "käynnistä"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "Plank Reloaded -kehittäjät"

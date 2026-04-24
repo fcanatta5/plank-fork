@@ -1,0 +1,694 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-11-13 03:56\n"
+"Last-Translator: \n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "Plank Reloaded"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "Još uvijek glupo jednostavno"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"Plank Reloaded je odvojak izvornog Plank projekta, pružajući jednostavan dok "
+"za X11 desktop okruženja. Iako je razvoj započeo s fokusom na Cinnamon, sada "
+"aktivno podržavamo više desktop okruženja uključujući MATE i Xfce. Wayland "
+"trenutno nije podržan."
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"Kao i njegov prethodnik, Plank Reloaded ima za cilj biti najjednostavniji "
+"dok na planeti, pružajući upravo ono što dok treba i apsolutno ništa više. "
+"On također ostaje biblioteka koja se može proširiti za stvaranje drugih dok "
+"programa s naprednijim značajkama."
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "Dok s Matte temom"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "Postavke izgleda"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "Postavke ponašanja"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "Postavke dok-apleta"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "Dok"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "Tema:"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "Položaj:"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "Lijevo"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "Desno"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "Gore"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "Dolje"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "Na aktivnom zaslonu:"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "Interval ispitivanja u sekundama za otkrivanje aktivnog zaslona"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "Poravnanje:"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "Popuni"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "Početak"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "Kraj"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "Sredina"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "Na primarnom zaslonu:"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "Pomak u postotcima od središta ruba zaslona"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "Poravnanje ikona:"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "Veličina ikone:"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "Uvećanje ikona:"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "Veličina razmaka:"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "Izgled"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "Inteligentno skrivanje"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "Automatsko skrivanje"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "Izbjegni maksimizirani prozor"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "Izbjegavanje Prozora"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "Izbjegni aktivni prozor"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "Sakrij dok"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "Odgoda skrivanja:"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "Odgoda u ms prije skrivanja doka"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "Odgoda prikaza:"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "Odgoda u ms prije prikazivanja doka"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "Otkrivanje pritiskom:"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "Upravljanje stavkama"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "Prikaži nepričvršćene:"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "Ograniči na radni prostor:"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "Opisi alata omogućeni:"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "Zaključaj ikone:"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "Usidri dok-aplete:"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "Usidri datoteke:"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "Ponašanje"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "Dok-apleti"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "Nema dostupnih aplikacija"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "Aplikacije"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "Uredi izbornik"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "Odaberi prilagođenu ikonu"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "Vrati na zadanu ikonu"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "Velike ikone"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "Odaberi prilagođenu ikonu"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "Odustani"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "Odaberi"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "Datoteke slika"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "Jednostavno pokrenite bilo koju od vaših aplikacija."
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "Nema baterije"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "Baterije"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "Nisu pronađene baterije"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "Greška pri traženju baterija"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "Baterija"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "Prikazuje informacije o bateriji"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "Međuspremnik je trenutno prazan."
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_Očisti"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "Prati odabire miša"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "Prati slike"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "Omogući praćenje međuspremnika"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "Maksimalan broj unosa"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "Slika"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "Clippy"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "Zadrži nedavne unose međuspremnika."
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "Di_gitalni sat"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "24-satni _sat"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "Prikaži _datum"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "Sat"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "Koliko je sati?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "Praćenje CPU-a"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "Držite oko na CPU-u. A kada se izmakne kontroli..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "Prikaži radnu površinu"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "Radna površina"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "Prikaži svoju radnu površinu."
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "Obavijesti"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "upravo sada"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "prije %d minutu"
+msgstr[1] "prije %d minute"
+msgstr[2] "prije %d minuta"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "prije %d sat"
+msgstr[1] "prije %d sata"
+msgstr[2] "prije %d sati"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "Omogući _istek"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "Prikaži _broj"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "Prikaži _privremene"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "Obriši obavijesti"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "Jednostavan dok-aplet za obavijesti."
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "Nema stavki u smeću"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "%u stavka u smeću"
+msgstr[1] "%u stavke u smeću"
+msgstr[2] "%u stavki u smeću"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "Isprazniti sve stavke iz smeća?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Sve stavke u smeću bit će trajno obrisane."
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_Odustani"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "Isprazni _smeće"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "Ispusti za premještanje u smeće"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "_Otvori smeće"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "Smeće"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "Pogledajte svoje smeće!"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_Stil"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "_Crta"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_Točka"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_Razmak"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_Invertiraj boju"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "Razdjelnik"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "Samo razdjelnik."
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "Radni prostori"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "Radni prostor %d od %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "Radni prostor %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "_Uživo pregledi"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "Grafički prebacivač radnih prostora."
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "Ispustite da biste dodali na dok"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Ivan https://launchpad.net/~ivan-os\n"
+"  Ivan Vrljić https://launchpad.net/~vrlja92\n"
+"  Rico Tzschichholz https://launchpad.net/~ricotz\n"
+"  gogo https://launchpad.net/~trebelnik-stefina"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "_Zadrži u Docku"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "_Zatvori sve"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "_Zatvori"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "Ispusti za otvaranje s %s"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "_Opcije prikaza"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "_Otvori u Pregledniku datoteka"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "Opcije prikaza"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_U redu"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "Sortiraj po:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "Ime"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "Vrsta"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "Veličina"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "Datum izrade"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "Datum izmjene"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "Stil:"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "Jednostavno"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "Pločica"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "Velike ikone:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "Prikaži skrivene datoteke:"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "_Otvori"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "Otvori sadržajnu _mapu"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "Prazan direktorij"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "Ispustite aplikacije ili datoteke ovdje"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "Potraži_Pomoć na mreži"
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "_Prevedi ovu aplikaciju..."
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_Postavke"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "_O programu"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_Izlaz"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "Postavke"
+
+#~ msgid "dock"
+#~ msgstr "dok"
+
+#~ msgid "launch"
+#~ msgstr "pokretanje"
+
+#~ msgid "panel"
+#~ msgstr "ploča"
+
+#~ msgid "start"
+#~ msgstr "start"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "Plank Reloaded programeri"

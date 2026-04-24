@@ -1,0 +1,687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-11-13 21:06\n"
+"Last-Translator: \n"
+"Language-Team: Kabyle\n"
+"Language: kab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: kab\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "Plank Reloaded"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "Mazal-it tella fessus"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"Plank Reloaded d aselkem n usenfar anaẓul Plank, yettmudd-d adukkar fessus i "
+"twennaḍin n tnarit X11. Ɣas akken asnefli yebda s ufraq ɣef Cinnamon, tura "
+"nessefrrak s urmid aṭas n twennaḍin n tnarit i deg yella MATE d Xfce. "
+"Wayland ur yettwasefrark ara akka tura."
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"Am umezwaru-ines, Plank Reloaded yettḥeyyir ad yili d adukkar afessus deg "
+"umaḍal, yettmuddu-d kan ayen i yesra udukkar ulac aktar. Yettaǧǧa daɣen d "
+"tamsalt ara izemmren ad yettusiɣzef i tmerna n yihilen-nniḍen n udukkar s "
+"tmahilin leqqayen."
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "Adukkar s usentel Matte"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "Ismenyifen n tirmas"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "Ismenyifen n tikli"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "Ismenyifen n yidukkar imeẓyanen"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "Adukkar"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "Asentel:"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "Ideg"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "Azelmaḍ"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "Ayeffus"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "Asawen"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "Ddaw"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "Deg uskan urmid:"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "Azilal n usenqed s tsinin i tifin n uskan urmid"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "Areyyec"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "Ččaṛ"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "Bdu"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "Tagara"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "Talemmast"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "Deg Uskan Amenzu"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "Adigen s amur n usatal seg wammas n tama n ugdil"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "Areyyec n tignit"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "Tiddi n tignit"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "Semɣeṛ tignit"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "Teɣzi n tallunt:"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "Arwes"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "Tuffra Tamegzut"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "Ffer s wudem awurman"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "Zgel asfaylu yettwasemɣer"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "Izgel asfaylu"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "Zgel asfaylu urmid"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "Ffer Dock"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "Aεeḍḍel n tufra"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "Aεeḍḍel s ms send n tuffra n Dock"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "Aεeḍḍel n useḍheṛ"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "Aεeḍḍel s ms send n wesskan n Dock"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "Aseḍheṛ n Tussda"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "Assefrek n Umagrad"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "Sken wer nseṭṭen ara:"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "Qeyyed ar Tallunt n Leqdic"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "Tiwelhiwin yermden:"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "Sewḥel Tignit"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "Seddu idukkar imeẓyanen:"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "Seddu ifuyla:"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "Tikli"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "Idukkar imeẓyanen"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "Ulac isnasen yellan"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "Isnasen"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "Ẓreg umuɣ"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "Fren tignit tudmawant"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "Ales awennez ɣer tegnit tamezwert"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "Tignitin timeqqranin"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "Fren tignit tudmawant"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "Sefsex"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "Fren"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "Ifuyla n tugniwin"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "Senker kan yal asnas-ik."
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "Ulac tabaṭṭit"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "Tibaṭṭiyin"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "Ulac tibaṭṭiyin i yettwafen"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "Tuccḍa deg unadi n tbaṭṭiyin"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "Tabaṭṭit"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "Iskan-d talɣut n tbaṭṭit"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "Afus n unuɣal d ilem akka tura."
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_Sfeḍ"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "Ḍfer tifranin n tɣerdayt"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "Ḍfer tugniwin"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "Rmed aḍfar n ufus n unuɣal"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "Inekcumen ugar"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "Tugna"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "Clippy"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "Eǧǧ inekcumen imaynuten n ufus n unuɣal."
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "Tamrilt u_mezruy"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "_Tamrilt n 24 n yisragen"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "Sken a_zemz"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "Tamrilt"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "Anwa akud ihi?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "Awitay"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "Asfuɣal n CPU"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "Eǧǧ tiṭ-ik fuq CPU-a. Mi ara yeffeɣ seg izirig..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "Sken tanarit"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "Tanarit"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "Sken tanarit-ik."
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "Tilɣa"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "akka tura"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d n tesdat aya"
+msgstr[1] "%d n tesdatin aya"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d n usrag aya"
+msgstr[1] "%d n yisragen aya"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "Rmed _taggara n lweqt"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "Sken _asiḍen"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "Sken _akudan"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "Sfeḍ tilɣa"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "Adukkar ameẓyan n tilɣa fessus."
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "Ulac iferdisen di tqecwalt"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "%u n uferdis di tqecwalt"
+msgstr[1] "%u n yiferdisen di tqecwalt"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "Sken akk iferdisen seg tqecwalt?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Akk iferdisen deg tqecwalt ad ttwakksen i lebda."
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_Sefsex"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "Sken _taqecwalt"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "Sers i usenkez ɣer tqecwalt"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "_Ldi taqecwalt"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "Taqecwalt"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "Wali taqecwalt-ik!"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_Aɣanib"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "_Izirig"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_Tinneqt"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_Tallunt"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_Sbadu ini"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "Anabraz"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "Anabraz kan."
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "Tilisa n twuri"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "Tallunt n twuri %d seg %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "Tallunt n twuri %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "_Tiskanin tazirayin"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "Amsenfel n tellisin n twuri s udlifen."
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "Serreḥ i wakken ad tarnuḍ ar Dock"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Imtaray n tsuqiltLaunchpad Contributions:\n"
+"  Amaziɣ Agrawliw https://launchpad.net/~mldamazigh15"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "_Eǧǧ-it deg Dock"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "_Mdel akk ayen yellan"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "_Mdel"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "Serreḥ i wakken ad teldiḍ akkʷed %s"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "_Sken tixtiranin"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "_Ldi deg Iminig n Ufaylu"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "Sken tixtiranin"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_IH"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "Smizzwer s:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "Isem"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "Anaw"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "Teɣzi"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "Azemz n tmerna"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "Azemz n usnifel"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "Aɣanib:"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "Fessus"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "Aselku"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "Tignitin timeqqranin:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "Sken ifuyla yeffren:"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "_Ldi"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "Ldi Afaylu _Agbur"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "Akaram ilem"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "Serreḥ i yesnasen neɣ ifuyla dagi"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "Awi-d_tallalt deg umnaḍ"
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "_Suqel Asnas Agi"
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_Ismenyifen"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "_Ɣef"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_Ffeɣ"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "Iγewwaren"
+
+#~ msgid "dock"
+#~ msgstr "adukkar"
+
+#~ msgid "launch"
+#~ msgstr "senker"
+
+#~ msgid "panel"
+#~ msgstr "agalis"
+
+#~ msgid "start"
+#~ msgstr "bdu"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "Ineflayen n Plank Reloaded"

@@ -1,0 +1,707 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-10-30 22:55\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "Plank Reloaded"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "Toujours stupidement simple"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"Plank Reloaded est un fork du projet original Plank, fournissant un dock "
+"simple pour les environnements de bureau X11. Bien que le développement ait "
+"commencé en se concentrant sur Cinnamon, nous prenons désormais en charge "
+"plusieurs environnements de bureau, notamment MATE et Xfce. Wayland n'est "
+"pas pris en charge pour le moment."
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"Comme son prédécesseur, Plank Reloaded vise à être le dock le plus simple de "
+"la planète, fournissant juste ce dont un dock a besoin et absolument rien de "
+"plus. C'est également une bibliothèque qui peut être étendue pour créer "
+"d'autres programmes de dock avec des fonctionnalités plus avancées."
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "Dock avec le thème Matte"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "Préférences d'apparence"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "Préférences de comportement"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "Préférences des docklets"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "Dock"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "Thème :"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "Position :"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "Gauche"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "Droite"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "Haut"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "Bas"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "Sur l'écran actif :"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "Intervalle en secondes pour la détection d'affichage actif"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "Alignement :"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "Remplir"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "Début"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "Fin"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "Centré"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "Sur l'écran principal :"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "Décalage par rapport au milieu du bord de l'écran en pourcentage"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "Alignement des icônes :"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "Taille de l'icône :"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "Zoom sur icône :"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "Marge :"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "Apparence"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "Masquage intelligent"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "Masquage automatique"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "Esquiver les fenêtres maximisées"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "Esquiver les fenêtres"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "Esquiver la fenêtre active"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "Masquer le dock"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "Délai avant masquage :"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "Délai en ms avant masquage du dock"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "Délai avant apparition :"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "Délai en ms avant affichage du dock"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "Pression d'activation :"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "Gestion des éléments"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "Afficher les éléments non épinglés :"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "Restreindre à l'espace de travail :"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "Infobulles activées :"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "Verrouiller les icônes :"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "Docklets ancrés :"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "Fichiers ancrés :"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "Comportement"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "Docklets"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "Aucune application disponible"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "Applications"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "Éditer le menu"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "Choisir une icône personnalisée"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "Icône par défaut"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "Grandes icônes"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "Sélectionner une icône personnalisée"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "Annuler"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "Sélectionner"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "Fichiers d'image"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "Lancez une application."
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "Aucune batterie"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "Batteries"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "Aucune batterie trouvée"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "Erreur lors de la recherche des batteries"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "Batterie"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "Affiche les informations de la batterie"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "Le presse-papier est vide."
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_Vider"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "Suivre les sélections de la souris"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "Suivre les images"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "Activer le suivi du presse-papiers"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "Entrées maximum"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "Image"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "Clippy"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "Conserver les entrées récentes du presse-papier."
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "_Horloge numérique"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "Horloge 24 heures"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "Afficher la date"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "Horloge"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "Quelle heure est-il ?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "Moniteur CPU"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "Garde un œil sur le CPU. Et s'il dépasse ses limites..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "Afficher le bureau"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "Bureau"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "Affiche votre bureau."
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "Notifications"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "à l'instant"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "Il y a %d minute"
+msgstr[1] "Il y a %d minutes"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "Il y a %d heure"
+msgstr[1] "Il y a %d heures"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "Activer l'_Expiration"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "Afficher le _Nombre"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "Afficher _Transitoire"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "Effacer les notifications"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "Docklet de notifications."
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "Aucun élément dans la corbeille"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "%u élément dans la corbeille"
+msgstr[1] "%u éléments dans la corbeille"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "Supprimer les éléments de la corbeille ?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Tous les éléments de la corbeille seront supprimés définitivement."
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_Annuler"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "Vider la corbeille"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "Lâcher pour mettre à la corbeille"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "_Ouvrir la corbeille"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "Corbeille"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "Gardez un œil sur votre corbeille !"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_Style"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "_Ligne"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_Point"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_Espace"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_Inverser la couleur"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "Séparateur"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "Juste un séparateur."
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "Espaces de travail"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "Espace de travail %d sur %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "Espace de travail %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "_Aperçus"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "Un sélecteur d'espaces de travail."
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "Relâcher pour ajouter au dock"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Contributions Launchpad:\n"
+"  Adrien Plazas https://launchpad.net/~kekun-plazas\n"
+"  Baptiste Darthenay https://launchpad.net/~batisteo\n"
+"  Benoit à la Guillaume https://launchpad.net/~abalg-no-log\n"
+"  Charles Monzat https://launchpad.net/~superboa\n"
+"  Daniel Coquette https://launchpad.net/~yarod\n"
+"  Devil505 https://launchpad.net/~devil505\n"
+"  Eliovir https://launchpad.net/~eliovir\n"
+"  Ewalavir https://launchpad.net/~ewalavir\n"
+"  Francois Thirioux https://launchpad.net/~fthx\n"
+"  Jean-Marc https://launchpad.net/~m-balthazar\n"
+"  Lucien Gauchet https://launchpad.net/~lucien-gauchet\n"
+"  Maxime Gauduin https://launchpad.net/~alucryd\n"
+"  PerfectCarl https://launchpad.net/~name-is-carl\n"
+"  Philippe Fondrillon https://launchpad.net/~ph-fondrillon-m\n"
+"  Rico Tzschichholz https://launchpad.net/~ricotz\n"
+"  TcodingT https://launchpad.net/~tcodingt\n"
+"  Thomas Delsaut https://launchpad.net/~thomasdelsaut\n"
+"  Yannick Le Guen https://launchpad.net/~leguen-yannick\n"
+"  benjamin SIENTZOFF https://launchpad.net/~benjamin-sientzoff\n"
+"  houdas.rodolphe https://launchpad.net/~houdas-rodolphe"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "Épingler au _Dock"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "_Fermer tout"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "_Fermer"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "Relâcher pour ouvrir avec %s"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "_Options d'affichage"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "_Ouvrir dans le Gestionnaire de fichiers"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "Options d'affichage"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_OK"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "Trier par:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "Nom"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "Type"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "Taille"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "Date de création"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "Date de modification"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "Style :"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "Simple"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "Tuile"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "Grandes icônes:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "Afficher les fichiers cachés :"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "_Ouvrir"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "Ouvrir le _dossier parent"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "Répertoire vide"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "Déposer ici des applications ou des fichiers"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "Obtenir de l'_aide en ligne"
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "_Traduire cette application..."
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_Préférences"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "_À propos"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_Quitter"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "Préférences"
+
+#~ msgid "dock"
+#~ msgstr "dock"
+
+#~ msgid "launch"
+#~ msgstr "lancer"
+
+#~ msgid "panel"
+#~ msgstr "panneau"
+
+#~ msgid "start"
+#~ msgstr "début"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "Les développeurs de Plank Reloaded"

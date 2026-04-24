@@ -1,0 +1,686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-11-13 03:00\n"
+"Last-Translator: \n"
+"Language-Team: Telugu\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: te\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "ప్లాంక్ రీలోడెడ్"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "ఇప్పటికీ చాలా సులభం"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"ప్లాంక్ రీలోడెడ్ అనేది అసలు ప్లాంక్ ప్రాజెక్ట్ యొక్క ఫోర్క్, X11 డెస్క్‌టాప్ వాతావరణాలకు సరళమైన డాక్‌ను "
+"అందిస్తుంది. అభివృద్ధి సినమోన్‌పై దృష్టి సారించినప్పటికీ, మేము ఇప్పుడు MATE మరియు Xfce తో సహా అనేక "
+"డెస్క్‌టాప్ వాతావరణాలకు చురుకుగా మద్దతు ఇస్తున్నాము. ప్రస్తుతం Wayland మద్దతు లేదు."
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"దాని పూర్వీకుల మాదిరిగానే, ప్లాంక్ రీలోడెడ్ గ్రహం మీద అత్యంత సరళమైన డాక్ అవ్వాలని లక్ష్యంగా పెట్టుకుంది, "
+"డాక్‌కు అవసరమైనది మాత్రమే అందిస్తుంది మరియు అంతకంటే ఎక్కువ ఏమీ లేదు. ఇది మరింత అధునాతన లక్షణాలతో "
+"ఇతర డాక్ ప్రోగ్రామ్‌లను సృష్టించడానికి విస్తరించగల లైబ్రరీగా కూడా మిగిలిపోయింది."
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "మాట్ థీమ్‌తో డాక్"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "రూపాన్ని ఎంపికలు"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "ప్రవర్తన ఎంపికలు"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "డాక్‌లెట్స్ ఎంపికలు"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "డాక్"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "థీమ్:"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "స్థానం:"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "ఎడమ వైపు"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "కుడి వైపు"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "పైన"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "అడుగున"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "చురుకైన డిస్‌ప్లేపై:"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "చురుకైన డిస్‌ప్లే గుర్తింపు కోసం సెకన్లలో పోలింగ్ విరామం"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "సర్దుబాటు:"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "నింపుము"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "ప్రారంభంలో"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "చివరిలో"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "మధ్యలో"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "ప్రధాన డిస్ప్లే"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "స్క్రీన్ ఎడ్జ్ నుంచి పెర్సెంట్ లో కొలువు"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "ఇకాన్ ల క్రమం"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "ఇకాన్ పరిమాణం"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "ఐకాన్ జూమ్:"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "గ్యాప్ పరిమాణం:"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "కనిపించు విధానం"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "తెలివిగా దాచు"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "స్వయంగా దాచు"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "మాగ్జిమైజ్ అయిన విండో నుంచి తప్పించుకో"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "విండో తప్పించుకోవడం"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "చురుకైన విండో నుండి తప్పించుకోండి"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "డాక్ ను దాచిపెట్టు"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "దాచే ఆలస్యం:"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "డాక్‌ను దాచడానికి ముందు ms లో ఆలస్యం"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "చూపించే ఆలస్యం:"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "డాక్ ని చూపించడానికి ముందు మిల్లీసెకండ్స్ లో ఆలస్యం"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "వత్తిడి వల్ల డాక్ ని చూపించు"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "ఐటెంలను నిర్వహించు"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "పిన్ చేయని వాటిని చూపించు"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "వర్క్ స్పేస్ లో మాత్రమే అనుమతించు"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "టూల్‌టిప్స్ ప్రారంభించబడింది:"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "ఇకాన్ లను బంధించు"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "డాక్‌లెట్స్ లంగరు:"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "ఫైళ్ళ లంగరు:"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "ప్రవర్తన"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "డాక్‌లెట్స్"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "అప్లికేషన్లు అందుబాటులో లేవు"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "అప్లికేషన్లు"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "మెనూని సవరించు"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "అనుకూల ఐకాన్‌ను ఎంచుకోండి"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "డిఫాల్ట్ ఐకాన్‌కు రీసెట్ చేయండి"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "పెద్ద ఐకాన్లు"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "అనుకూల ఐకాన్‌ను ఎంచుకోండి"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "రద్దు చేయి"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "ఎంచుకోండి"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "చిత్ర ఫైళ్ళు"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "మీ అప్లికేషన్‌లలో దేనినైనా సరళంగా ప్రారంభించండి."
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "బ్యాటరీ లేదు"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "బ్యాటరీలు"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "బ్యాటరీలు కనుగొనబడలేదు"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "బ్యాటరీలను కనుగొనడంలో లోపం"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "బ్యాటరీ"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "బ్యాటరీ సమాచారాన్ని ప్రదర్శిస్తుంది"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "క్లిప్‌బోర్డ్ ప్రస్తుతం ఖాళీగా ఉంది."
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_క్లియర్ చేయి"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "మౌస్ ఎంపికలను ట్రాక్ చేయండి"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "చిత్రాలను ట్రాక్ చేయండి"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "క్లిప్‌బోర్డ్ ట్రాకింగ్‌ను ప్రారంభించండి"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "గరిష్ట నమోదులు"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "చిత్రం"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "క్లిప్పీ"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "ఇటీవలి క్లిప్‌బోర్డ్ నమోదులను ఉంచండి."
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "డి_జిటల్ గడియారం"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "24-గంటల _గడియారం"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "_తేదీని చూపించు"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "గడియారం"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "ఇప్పుడు సమయం ఎంత?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "క్యాలెండర్"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "CPU మానిటర్"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "ఆ CPU పై ఒక కన్ను ఉంచండి. మరియు అది నియంత్రణ తప్పినప్పుడు..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "డెస్క్‌టాప్ చూపించు"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "డెస్క్‌టాప్"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "మీ డెస్క్‌టాప్‌ను చూపించండి."
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "నోటిఫికేషన్లు"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "ఇప్పుడే"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d నిమిషం క్రితం"
+msgstr[1] "%d నిమిషాల క్రితం"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d గంట క్రితం"
+msgstr[1] "%d గంటల క్రితం"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "_గడువు ముగింపును ప్రారంభించు"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "_లెక్కను చూపించు"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "_తాత్కాలికంగా చూపించు"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "నోటిఫికేషన్లను క్లియర్ చేయి"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "సరళమైన నోటిఫికేషన్ల డాక్‌లెట్."
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "ట్రాష్‌లో అంశాలు లేవు"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "ట్రాష్‌లో %u అంశం"
+msgstr[1] "ట్రాష్‌లో %u అంశాలు"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "ట్రాష్ నుండి అన్ని అంశాలను ఖాళీ చేయాలా?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "ట్రాష్‌లోని అన్ని అంశాలు శాశ్వతంగా తొలగించబడతాయి."
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_రద్దు చేయి"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "_ట్రాష్ ఖాళీ చేయి"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "ట్రాష్‌కు తరలించడానికి వదలండి"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "_ట్రాష్ తెరవండి"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "ట్రాష్"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "మీ ట్రాష్‌ని చూడండి!"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_శైలి"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "_రేఖ"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_చుక్క"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_ఖాళీ"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_రంగును తిప్పండి"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "విభజకం"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "కేవలం విభజకం."
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "వర్క్‌స్పేస్‌లు"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "వర్క్‌స్పేస్ %d / %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "వర్క్‌స్పేస్ %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "_లైవ్ ప్రివ్యూలు"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "గ్రాఫికల్ వర్క్‌స్పేస్ మార్పిడి."
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "డాక్‌కు జోడించడానికి వదలండి"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Rico Tzschichholz https://launchpad.net/~ricotz\n"
+"  Venkata Jaswanth https://launchpad.net/~aj-jaswanth"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "డాక్ లోనే ఉంచు"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "అన్నీ మూసివేయి (_C)"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "మూసివేయి (_C)"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "%s తో తెరవడానికి వదలండి"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "_వీక్షణ ఎంపికలు"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "ఫైల్ బ్రౌజర్ లో తెరువు"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "వీక్షణ ఎంపికలు"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_సరే"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "క్రమపరచు:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "పేరు"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "రకం"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "పరిమాణం"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "సృష్టించిన తేదీ"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "సవరించిన తేదీ"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "శైలి:"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "సరళమైన"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "టైల్"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "పెద్ద ఐకాన్లు:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "దాచిన ఫైళ్ళను చూపించు:"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "తెరువు (_O)"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "కలిగి ఉన్న ఫోల్డర్ ను తెరువు"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "ఖాళీ డైరెక్టరీ"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "అప్లికేషన్లు కానీ ఫైల్స్ కానీ వేయండి"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "అంతర్జాలంలో సహాయాన్ని పొందు"
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "ఈ అప్లికేషన్ ను తర్జూమా చేయి"
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_ఎంపికలు"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "_గురించి"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_నిష్క్రమించు"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "ప్రాధాన్యతలు"
+
+#~ msgid "dock"
+#~ msgstr "డాక్"
+
+#~ msgid "launch"
+#~ msgstr "ప్రారంభించు"
+
+#~ msgid "panel"
+#~ msgstr "ప్యానెల్"
+
+#~ msgid "start"
+#~ msgstr "మొదలు"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "ప్లాంక్ రీలోడెడ్ డెవలపర్లు"

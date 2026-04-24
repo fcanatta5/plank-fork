@@ -1,0 +1,455 @@
+#!/usr/bin/env bash
+# Plank Reloaded Rofi Manager
+# Graphical helper to configure Plank, apply futuristic profiles, and bootstrap Picom/Openbox integration.
+
+set -u
+
+ROOT_SCHEMA="net.launchpad.plank"
+DOCK_SCHEMA="net.launchpad.plank.dock.settings"
+DEFAULT_DOCK="dock1"
+CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
+PICOM_DIR="$CONFIG_HOME/picom"
+PICOM_CONF="$PICOM_DIR/plank-reloaded.conf"
+OPENBOX_DIR="$CONFIG_HOME/openbox"
+OPENBOX_AUTOSTART="$OPENBOX_DIR/autostart"
+OPENBOX_MENU_SNIPPET="$OPENBOX_DIR/plank-reloaded-menu.xml"
+
+ROFI_THEME='window { width: 42%; border: 1px; border-color: #00f5ff; background-color: rgba(5,8,20,92%); } listview { lines: 12; } element selected { background-color: rgba(0,245,255,22%); } inputbar { padding: 8px; }'
+
+notify_user() {
+  local msg="$1"
+  if command -v notify-send >/dev/null 2>&1; then
+    notify-send "Plank Reloaded" "$msg" 2>/dev/null || true
+  fi
+}
+
+need_cmd() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+rofi_menu() {
+  local prompt="$1"
+  if ! need_cmd rofi; then
+    printf 'ERRO: rofi não está instalado. Instale com: sudo apt install rofi\n' >&2
+    return 1
+  fi
+  rofi -dmenu -i -p "$prompt" -theme-str "$ROFI_THEME"
+}
+
+msg_box() {
+  local text="$1"
+  if need_cmd rofi; then
+    printf '%s\n' "$text" | rofi -dmenu -p "Plank Reloaded" -theme-str "$ROFI_THEME" >/dev/null || true
+  else
+    printf '%s\n' "$text"
+  fi
+}
+
+require_gsettings() {
+  if ! need_cmd gsettings; then
+    msg_box "gsettings não encontrado. Instale glib2/gsettings antes de configurar o Plank."
+    exit 1
+  fi
+}
+
+schema_exists() {
+  gsettings list-schemas | grep -qx "$1"
+}
+
+get_docks() {
+  local raw docks
+  raw="$(gsettings get "$ROOT_SCHEMA" enabled-docks 2>/dev/null || true)"
+  docks="$(printf '%s' "$raw" | tr -d "[],'" | tr ' ' '\n' | sed '/^$/d')"
+  if [ -z "$docks" ]; then
+    printf '%s\n' "$DEFAULT_DOCK"
+  else
+    printf '%s\n' "$docks"
+  fi
+}
+
+choose_dock() {
+  local docks count selected
+  docks="$(get_docks)"
+  count="$(printf '%s\n' "$docks" | sed '/^$/d' | wc -l | tr -d ' ')"
+  if [ "$count" = "1" ]; then
+    printf '%s\n' "$docks"
+    return 0
+  fi
+  selected="$(printf '%s\n' "$docks" | rofi_menu "Dock")" || return 1
+  [ -n "$selected" ] && printf '%s\n' "$selected"
+}
+
+schema_path() {
+  printf '/net/launchpad/plank/docks/%s/' "$1"
+}
+
+get_key() {
+  local dock="$1" key="$2"
+  gsettings get "$DOCK_SCHEMA:$(schema_path "$dock")" "$key"
+}
+
+set_key() {
+  local dock="$1" key="$2" value="$3"
+  gsettings set "$DOCK_SCHEMA:$(schema_path "$dock")" "$key" "$value"
+}
+
+set_enum() {
+  local dock="$1" key="$2" value="$3"
+  set_key "$dock" "$key" "'$value'"
+}
+
+set_string() {
+  local dock="$1" key="$2" value="$3"
+  set_key "$dock" "$key" "'$value'"
+}
+
+toggle_bool() {
+  local dock="$1" key="$2" current
+  current="$(get_key "$dock" "$key" 2>/dev/null || echo false)"
+  if [ "$current" = "true" ]; then
+    set_key "$dock" "$key" false
+  else
+    set_key "$dock" "$key" true
+  fi
+}
+
+restart_plank() {
+  pkill -x plank 2>/dev/null || true
+  sleep 0.35
+  nohup plank >/dev/null 2>&1 &
+  notify_user "Plank reiniciado."
+}
+
+available_themes() {
+  {
+    printf '%s\n' Default Matte Matte-Light Minimal Minimal-Light Transparent CyberNeon Synthwave QuantumGlass MatrixCore PlasmaCircuit DarkMatter Gtk+
+    for dir in "$DATA_HOME/plank/themes" /usr/local/share/plank/themes /usr/share/plank/themes; do
+      [ -d "$dir" ] && find "$dir" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' 2>/dev/null
+    done
+  } | sed '/^$/d' | sort -u
+}
+
+menu_theme() {
+  local dock="$1" theme
+  theme="$(available_themes | rofi_menu "Tema")" || return 0
+  [ -n "$theme" ] || return 0
+  set_string "$dock" theme "$theme"
+  notify_user "Tema aplicado: $theme"
+}
+
+menu_icon_size() {
+  local dock="$1" value
+  value="$(seq 24 2 128 | rofi_menu "Tamanho dos ícones")" || return 0
+  [[ "$value" =~ ^[0-9]+$ ]] || return 0
+  set_key "$dock" icon-size "$value"
+}
+
+menu_zoom() {
+  local dock="$1" choice value
+  choice="$(printf 'Ativar/desativar zoom\nZoom 120%%\nZoom 150%%\nZoom 180%%\nZoom 220%%\nZoom 260%%\nZoom 300%%\n' | rofi_menu "Zoom")" || return 0
+  case "$choice" in
+    Ativar*) toggle_bool "$dock" zoom-enabled ;;
+    Zoom*) value="$(printf '%s' "$choice" | grep -o '[0-9]\+')"; set_key "$dock" zoom-enabled true; set_key "$dock" zoom-percent "$value" ;;
+  esac
+}
+
+menu_position() {
+  local dock="$1" pos
+  pos="$(printf 'bottom\ntop\nleft\nright\n' | rofi_menu "Posição")" || return 0
+  [ -n "$pos" ] && set_enum "$dock" position "$pos"
+}
+
+menu_alignment() {
+  local dock="$1" target val
+  target="$(printf 'alignment\nitems-alignment\n' | rofi_menu "Alinhamento")" || return 0
+  [ -n "$target" ] || return 0
+  val="$(printf 'center\nstart\nend\nfill\n' | rofi_menu "$target")" || return 0
+  [ -n "$val" ] && set_enum "$dock" "$target" "$val"
+}
+
+menu_hide() {
+  local dock="$1" mode
+  mode="$(printf 'none\nintelligent\nauto\ndodge-maximized\nwindow-dodge\ndodge-active\n' | rofi_menu "Modo de ocultação")" || return 0
+  [ -n "$mode" ] && set_enum "$dock" hide-mode "$mode"
+}
+
+menu_offsets() {
+  local dock="$1" opt value
+  opt="$(printf 'gap-size\noffset\nhide-delay\nunhide-delay\n' | rofi_menu "Gap / Offset / Delays")" || return 0
+  [ -n "$opt" ] || return 0
+  case "$opt" in
+    gap-size) value="$(seq 0 2 200 | rofi_menu "Gap em px")" ;;
+    offset) value="$(seq -100 5 100 | rofi_menu "Offset %")" ;;
+    hide-delay|unhide-delay) value="$(seq 0 50 2000 | rofi_menu "$opt ms")" ;;
+  esac
+  [[ "${value:-}" =~ ^-?[0-9]+$ ]] && set_key "$dock" "$opt" "$value"
+}
+
+menu_behavior() {
+  local dock="$1" key
+  key="$(printf 'current-workspace-only\npinned-only\nlock-items\ntooltips-enabled\nshow-dock-item\npressure-reveal\nactive-display\nauto-pinning\nanchor-docklets\nanchor-files\n' | rofi_menu "Alternar opção")" || return 0
+  [ -n "$key" ] && toggle_bool "$dock" "$key"
+}
+
+apply_profile() {
+  local dock="$1" profile="$2"
+  case "$profile" in
+    "Cyberpunk pesado")
+      set_string "$dock" theme "CyberNeon"
+      set_key "$dock" icon-size 54
+      set_key "$dock" zoom-enabled true
+      set_key "$dock" zoom-percent 185
+      set_enum "$dock" hide-mode intelligent
+      set_key "$dock" gap-size 6
+      ;;
+    "Matrix terminal")
+      set_string "$dock" theme "MatrixCore"
+      set_key "$dock" icon-size 50
+      set_key "$dock" zoom-enabled true
+      set_key "$dock" zoom-percent 170
+      set_enum "$dock" hide-mode auto
+      set_key "$dock" gap-size 4
+      ;;
+    "Glass minimal")
+      set_string "$dock" theme "QuantumGlass"
+      set_key "$dock" icon-size 48
+      set_key "$dock" zoom-enabled true
+      set_key "$dock" zoom-percent 155
+      set_enum "$dock" hide-mode intelligent
+      set_key "$dock" gap-size 10
+      ;;
+    "Openbox leve")
+      set_string "$dock" theme "DarkMatter"
+      set_key "$dock" icon-size 44
+      set_key "$dock" zoom-enabled false
+      set_enum "$dock" hide-mode none
+      set_key "$dock" gap-size 0
+      ;;
+    "Plasma neon")
+      set_string "$dock" theme "PlasmaCircuit"
+      set_key "$dock" icon-size 56
+      set_key "$dock" zoom-enabled true
+      set_key "$dock" zoom-percent 200
+      set_enum "$dock" hide-mode dodge-active
+      set_key "$dock" gap-size 8
+      ;;
+  esac
+  notify_user "Perfil aplicado: $profile"
+}
+
+menu_profiles() {
+  local dock="$1" profile
+  profile="$(printf 'Cyberpunk pesado\nMatrix terminal\nGlass minimal\nOpenbox leve\nPlasma neon\n' | rofi_menu "Perfil rápido")" || return 0
+  [ -n "$profile" ] && apply_profile "$dock" "$profile"
+}
+
+write_picom_config() {
+  mkdir -p "$PICOM_DIR"
+  cat > "$PICOM_CONF" <<'PICOMEOR'
+# Plank Reloaded Picom profile
+# Use with: picom --config ~/.config/picom/plank-reloaded.conf -b
+backend = "glx";
+vsync = true;
+mark-wmwin-focused = true;
+mark-ovredir-focused = true;
+detect-rounded-corners = true;
+detect-client-opacity = true;
+use-damage = true;
+unredir-if-possible = false;
+
+shadow = true;
+shadow-radius = 18;
+shadow-offset-x = 0;
+shadow-offset-y = 6;
+shadow-opacity = 0.34;
+shadow-exclude = [
+  "window_type = 'dock'",
+  "class_g = 'Plank'",
+  "class_g = 'plank'"
+];
+
+fading = true;
+fade-in-step = 0.045;
+fade-out-step = 0.045;
+fade-delta = 7;
+
+inactive-opacity = 1.0;
+active-opacity = 1.0;
+frame-opacity = 1.0;
+
+opacity-rule = [
+  "98:class_g = 'Plank'",
+  "98:class_g = 'plank'",
+  "98:name *= 'Plank'"
+];
+
+blur-background = true;
+blur-background-frame = false;
+blur-background-fixed = true;
+blur-kern = "3x3box";
+blur-method = "dual_kawase";
+blur-strength = 7;
+blur-background-exclude = [
+  "window_type = 'desktop'",
+  "class_g = 'Rofi'"
+];
+
+corner-radius = 0;
+rounded-corners-exclude = [
+  "window_type = 'dock'",
+  "class_g = 'Plank'"
+];
+
+wintypes:
+{
+  dock = { shadow = false; fade = true; focus = true; full-shadow = false; };
+  tooltip = { fade = true; shadow = true; opacity = 0.92; focus = true; };
+  popup_menu = { opacity = 0.96; };
+  dropdown_menu = { opacity = 0.96; };
+};
+PICOMEOR
+  notify_user "Config do Picom criada em $PICOM_CONF"
+}
+
+start_picom() {
+  write_picom_config
+  if ! need_cmd picom; then
+    msg_box "Picom não encontrado. Instale com: sudo apt install picom"
+    return 0
+  fi
+  pkill -x picom 2>/dev/null || true
+  sleep 0.25
+  if picom --help 2>&1 | grep -q -- '--experimental-backends'; then
+    nohup picom --experimental-backends --config "$PICOM_CONF" >/dev/null 2>&1 &
+  else
+    nohup picom --config "$PICOM_CONF" >/dev/null 2>&1 &
+  fi
+  notify_user "Picom iniciado com perfil Plank Reloaded."
+}
+
+stop_picom() {
+  pkill -x picom 2>/dev/null || true
+  notify_user "Picom finalizado."
+}
+
+menu_picom() {
+  local choice
+  choice="$(printf 'Criar/atualizar configuração Picom\nIniciar/Reiniciar Picom com perfil Plank\nParar Picom\nMostrar caminho da configuração\n' | rofi_menu "Picom")" || return 0
+  case "$choice" in
+    Criar*) write_picom_config ;;
+    Iniciar*) start_picom ;;
+    Parar*) stop_picom ;;
+    Mostrar*) msg_box "$PICOM_CONF" ;;
+  esac
+}
+
+install_openbox_autostart() {
+  mkdir -p "$OPENBOX_DIR"
+  touch "$OPENBOX_AUTOSTART"
+  cp "$OPENBOX_AUTOSTART" "$OPENBOX_AUTOSTART.bak.$(date +%Y%m%d%H%M%S)" 2>/dev/null || true
+  sed -i '/# >>> plank-reloaded/,/# <<< plank-reloaded/d' "$OPENBOX_AUTOSTART"
+  cat >> "$OPENBOX_AUTOSTART" <<'OBEOR'
+
+# >>> plank-reloaded
+# Plank Reloaded + Picom integration
+[ -f "$HOME/.config/picom/plank-reloaded.conf" ] || plank-rofi-manager --write-picom
+pgrep -x picom >/dev/null || picom --config "$HOME/.config/picom/plank-reloaded.conf" -b &
+pgrep -x plank >/dev/null || plank &
+# <<< plank-reloaded
+OBEOR
+  notify_user "Openbox autostart atualizado."
+}
+
+write_openbox_menu() {
+  mkdir -p "$OPENBOX_DIR"
+  cat > "$OPENBOX_MENU_SNIPPET" <<'OBMENUEOR'
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+  <menu id="plank-reloaded-menu" label="Plank Reloaded">
+    <item label="Configurar Plank Reloaded">
+      <action name="Execute"><command>plank-rofi-manager</command></action>
+    </item>
+    <item label="Reiniciar Plank">
+      <action name="Execute"><command>sh -c 'pkill -x plank; sleep .3; plank &amp;'</command></action>
+    </item>
+    <item label="Iniciar Picom para Plank">
+      <action name="Execute"><command>sh -c 'picom --config ~/.config/picom/plank-reloaded.conf -b'</command></action>
+    </item>
+  </menu>
+</openbox_menu>
+OBMENUEOR
+  notify_user "Snippet de menu Openbox criado."
+}
+
+reconfigure_openbox() {
+  if need_cmd openbox; then
+    openbox --reconfigure >/dev/null 2>&1 || true
+    notify_user "Openbox reconfigurado."
+  else
+    msg_box "openbox não encontrado."
+  fi
+}
+
+menu_openbox() {
+  local choice
+  choice="$(printf 'Instalar autostart Plank + Picom\nCriar snippet de menu Openbox\nReconfigurar Openbox\nMostrar caminhos\n' | rofi_menu "Openbox")" || return 0
+  case "$choice" in
+    Instalar*) install_openbox_autostart ;;
+    Criar*) write_openbox_menu ;;
+    Reconfigurar*) reconfigure_openbox ;;
+    Mostrar*) msg_box "Autostart: $OPENBOX_AUTOSTART\nMenu: $OPENBOX_MENU_SNIPPET" ;;
+  esac
+}
+
+status_view() {
+  local dock="$1"
+  msg_box "Dock: $dock
+Tema: $(get_key "$dock" theme)
+Posição: $(get_key "$dock" position)
+Hide mode: $(get_key "$dock" hide-mode)
+Icon size: $(get_key "$dock" icon-size)
+Zoom: $(get_key "$dock" zoom-enabled) / $(get_key "$dock" zoom-percent)%
+Gap: $(get_key "$dock" gap-size)
+Offset: $(get_key "$dock" offset)
+Picom conf: $PICOM_CONF
+Openbox autostart: $OPENBOX_AUTOSTART"
+}
+
+main_menu() {
+  local dock choice
+  dock="$(choose_dock)" || exit 0
+  while true; do
+    choice="$(printf 'Tema\nTamanho dos ícones\nZoom\nPosição\nAlinhamento\nOcultação\nGap / Offset / Delays\nComportamento\nPerfis rápidos\nPicom\nOpenbox\nReiniciar Plank\nStatus\nSair\n' | rofi_menu "Plank: $dock")" || exit 0
+    case "$choice" in
+      Tema) menu_theme "$dock" ;;
+      "Tamanho dos ícones") menu_icon_size "$dock" ;;
+      Zoom) menu_zoom "$dock" ;;
+      "Posição") menu_position "$dock" ;;
+      Alinhamento) menu_alignment "$dock" ;;
+      "Ocultação") menu_hide "$dock" ;;
+      "Gap / Offset / Delays") menu_offsets "$dock" ;;
+      Comportamento) menu_behavior "$dock" ;;
+      "Perfis rápidos") menu_profiles "$dock" ;;
+      Picom) menu_picom ;;
+      Openbox) menu_openbox ;;
+      "Reiniciar Plank") restart_plank ;;
+      Status) status_view "$dock" ;;
+      Sair|"") exit 0 ;;
+    esac
+  done
+}
+
+require_gsettings
+if ! schema_exists "$DOCK_SCHEMA"; then
+  msg_box "Schema do Plank não encontrado. Instale o Plank Reloaded e rode: sudo glib-compile-schemas /usr/share/glib-2.0/schemas"
+  exit 1
+fi
+
+case "${1:-}" in
+  --write-picom) write_picom_config ;;
+  --start-picom) start_picom ;;
+  --openbox-autostart) install_openbox_autostart ;;
+  --restart-plank) restart_plank ;;
+  *) main_menu ;;
+esac

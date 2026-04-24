@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Plank Reloaded Manager
+Comment=Configure Plank Reloaded with Rofi, Picom and Openbox profiles
+Exec=plank-rofi-manager
+Icon=plank-reloaded
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;Utility;
+Keywords=Plank;Dock;Rofi;Picom;Openbox;Theme;

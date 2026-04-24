@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016 Rico Tzschichholz <ricotz@ubuntu.com> -->
+<component type="desktop">
+  <id>net.launchpad.plank.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Plank Reloaded</name>
+  <summary>Still stupidly simple</summary>
+  <description>
+    <p>
+      Plank Reloaded is a fork of the original Plank project, providing a simple dock for X11 desktop environments. While development began with a focus on Cinnamon, we now actively support multiple desktop environments including MATE and Xfce. Wayland is not supported at this time.
+    </p>
+    <p>
+      Like its predecessor, Plank Reloaded aims to be the simplest dock on the planet, providing just what a dock needs and absolutely nothing more. It also remains a library which can be extended to create other dock programs with more advanced features.
+    </p>
+  </description>
+  <keywords>
+    <keyword>dock</keyword>
+    <keyword>launch</keyword>
+    <keyword>panel</keyword>
+    <keyword>start</keyword>
+  </keywords>
+  <url type="homepage">https://github.com/zquestz/plank-reloaded</url>
+  <url type="bugtracker">https://github.com/zquestz/plank-reloaded/issues</url>
+  <url type="faq">https://github.com/zquestz/plank-reloaded</url>
+  <url type="translate">https://github.com/zquestz/plank-reloaded</url>
+  <provides>
+    <library>libplank.so.1</library>
+    <binary>plank</binary>
+  </provides>
+  <project_license>GPL-3.0</project_license>
+  <developer id="@zquestz@mastodon.social">
+    <name>The Plank Reloaded Developers</name>
+  </developer>
+  <update_contact>quest_at_mac_dot_com</update_contact>
+  <launchable type="desktop-id">net.launchpad.plank.desktop</launchable>
+  <content_rating type="oars-1.0" />
+  <releases>
+    <release version="0.11.167" timestamp="1776118432" />
+    <release version="0.11.166" timestamp="1771051464" />
+    <release version="0.11.165" timestamp="1771043806" />
+    <release version="0.11.164" timestamp="1770581359" />
+    <release version="0.11.163" timestamp="1770516050" />
+    <release version="0.11.162" timestamp="1770513937" />
+    <release version="0.11.161" timestamp="1769513425" />
+    <release version="0.11.160" timestamp="1769393213" />
+    <release version="0.11.159" timestamp="1767048050" />
+    <release version="0.11.158" timestamp="1766519298" />
+    <release version="0.11.157" timestamp="1765495366" />
+    <release version="0.11.156" timestamp="1763073289" />
+    <release version="0.11.155" timestamp="1762137934" />
+    <release version="0.11.154" timestamp="1761863497" />
+    <release version="0.11.153" timestamp="1759973275" />
+    <release version="0.11.152" timestamp="1759196124" />
+    <release version="0.11.151" timestamp="1758254019" />
+    <release version="0.11.150" timestamp="1758067394" />
+    <release version="0.11.149" timestamp="1756352906" />
+    <release version="0.11.148" timestamp="1755482230" />
+    <release version="0.11.147" timestamp="1753766290" />
+    <release version="0.11.146" timestamp="1753144625" />
+    <release version="0.11.145" timestamp="1753073474" />
+    <release version="0.11.144" timestamp="1753068107" />
+    <release version="0.11.143" timestamp="1752964573" />
+    <release version="0.11.142" timestamp="1752884170" />
+    <release version="0.11.141" timestamp="1752261449" />
+    <release version="0.11.140" timestamp="1752009277" />
+    <release version="0.11.139" timestamp="1751102530" />
+    <release version="0.11.138" timestamp="1751086660" />
+    <release version="0.11.137" timestamp="1751067749" />
+    <release version="0.11.136" timestamp="1750970395" />
+    <release version="0.11.135" timestamp="1750790500" />
+    <release version="0.11.134" timestamp="1750558685" />
+    <release version="0.11.133" timestamp="1750228584" />
+    <release version="0.11.132" timestamp="1750207311" />
+    <release version="0.11.131" timestamp="1749534148" />
+    <release version="0.11.130" timestamp="1749514770" />
+    <release version="0.11.129" timestamp="1749429727" />
+    <release version="0.11.128" timestamp="1747962007" />
+    <release version="0.11.127" timestamp="1746932441" />
+    <release version="0.11.126" timestamp="1746862239" />
+    <release version="0.11.125" timestamp="1746850626" />
+    <release version="0.11.124" timestamp="1746424897" />
+    <release version="0.11.123" timestamp="1745989028" />
+    <release version="0.11.122" timestamp="1745727830" />
+    <release version="0.11.121" timestamp="1745480137" />
+    <release version="0.11.120" timestamp="1745281763" />
+    <release version="0.11.119" timestamp="1744946225" />
+    <release version="0.11.118" timestamp="1743650047" />
+    <release version="0.11.117" timestamp="1743537548" />
+    <release version="0.11.116" timestamp="1743468791" />
+    <release version="0.11.115" timestamp="1743322557" />
+    <release version="0.11.114" timestamp="1743122981" />
+    <release version="0.11.113" timestamp="1742931178" />
+    <release version="0.11.112" timestamp="1742848862" />
+    <release version="0.11.111" timestamp="1742687311" />
+    <release version="0.11.110" timestamp="1742604203" />
+    <release version="0.11.109" timestamp="1742447357" />
+    <release version="0.11.108" timestamp="1741747339" />
+    <release version="0.11.107" timestamp="1741572645" />
+    <release version="0.11.106" timestamp="1741480858" />
+    <release version="0.11.105" timestamp="1741135534" />
+    <release version="0.11.104" timestamp="1741057448" />
+    <release version="0.11.103" timestamp="1740712050" />
+    <release version="0.11.102" timestamp="1740513962" />
+    <release version="0.11.101" timestamp="1740363222" />
+    <release version="0.11.100" timestamp="1734570128" />
+    <release version="0.11.89" timestamp="1566230400" />
+    <release version="0.11.4" timestamp="1490644800" />
+    <release version="0.11.3" timestamp="1481047200" />
+    <release version="0.11.2" timestamp="1465190929" />
+    <release version="0.11.1" timestamp="1459324800" />
+    <release version="0.11.0" timestamp="1457816400" />
+    <release version="0.10.1" timestamp="1444388400" />
+    <release version="0.10.0" timestamp="1441623600" />
+    <release version="0.9.1" timestamp="1430564400" />
+    <release version="0.9.0" timestamp="1428836400" />
+    <release version="0.8.1" timestamp="1422187200" />
+    <release version="0.8.0" timestamp="1420200000" />
+    <release version="0.7.1" timestamp="1411470000" />
+    <release version="0.7.0" timestamp="1410778800" />
+    <release version="0.6.1" timestamp="1400583600" />
+    <release version="0.6.0" timestamp="1397473200" />
+    <release version="0.5.0" timestamp="1384689600" />
+    <release version="0.4.0" timestamp="1382094000" />
+    <release version="0.3.0" timestamp="1372158000" />
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/zquestz/plank-reloaded/refs/heads/master/screenshots/matte.webp</image>
+      <caption>Dock with Matte theme</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/zquestz/plank-reloaded/refs/heads/master/screenshots/preferences-appearance.webp</image>
+      <caption>Appearance Preferences</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/zquestz/plank-reloaded/refs/heads/master/screenshots/preferences-behavior.webp</image>
+      <caption>Behavior Preferences</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/zquestz/plank-reloaded/refs/heads/master/screenshots/preferences-docklets.webp</image>
+      <caption>Docklets Preferences</caption>
+    </screenshot>
+  </screenshots>
+</component>

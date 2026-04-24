@@ -1,0 +1,117 @@
+# Author: zquestz
+
+[PlankTheme]
+#The roundness of the top corners.
+TopRoundness=15
+#The roundness of the bottom corners.
+BottomRoundness=15
+#The thickness (in pixels) of lines drawn.
+LineWidth=1
+#The color (RGBA) of the outer stroke.
+OuterStrokeColor=230;;230;;230;;10
+#The starting color (RGBA) of the fill gradient.
+FillStartColor=230;;230;;230;;160
+#The ending color (RGBA) of the fill gradient.
+FillEndColor=230;;230;;230;;160
+#The color (RGBA) of the inner stroke.
+InnerStrokeColor=180;;180;;180;;15
+#Optional translucent highlight drawn over the upper part of the dock background.
+GlassHighlightColor=255;;255;;255;;0
+#Optional accent line drawn near the open edge of the dock background.
+AccentLineColor=255;;255;;255;;0
+#Optional outer glow around the dock background.
+GlowStrokeColor=255;;255;;255;;0
+#Optional scanline overlay color for futuristic glass themes.
+ScanlineColor=255;;255;;255;;0
+#Height of each scanline in pixels. Set to 0 to disable scanlines.
+ScanlineSize=0
+#Distance between scanlines in pixels.
+ScanlineSpacing=8
+#Opacity multiplier for the optional dock outer glow, from 0 to 1.
+GlowStrength=0
+
+[PlankDockTheme]
+#The padding on the left/right dock edges, in tenths of a percent of IconSize.
+HorizPadding=2
+#The padding on the top dock edge, in tenths of a percent of IconSize.
+TopPadding=2
+#The padding on the bottom dock edge, in tenths of a percent of IconSize.
+BottomPadding=2.4
+#The padding between items on the dock, in tenths of a percent of IconSize.
+ItemPadding=2
+#The padding before and after a separator, in tenths of a percent of IconSize.
+SeparatorPadding=-1
+#The color (RGBA) of the indicator.
+IndicatorColor=200;;200;;200;;255
+#The size of item indicators, in tenths of a percent of IconSize.
+IndicatorSize=1
+#The style of item indicators, styles: circle-glow, circle-color-glow, circle, underline.
+IndicatorStyle=2
+#The size of the icon-shadow behind every item, in tenths of a percent of IconSize.
+IconShadowSize=0.5
+#The height (in percent of IconSize) to bounce an icon when the application sets urgent.
+UrgentBounceHeight=1
+#The height (in percent of IconSize) to bounce an icon when launching an application.
+LaunchBounceHeight=0.9
+#The opacity value (0 to 1) to fade the dock to when hiding it.
+FadeOpacity=0
+#The amount of time (in ms) for click animations.
+ClickTime=900
+#The amount of time (in ms) to bounce an urgent icon.
+UrgentBounceTime=900
+#The amount of time (in ms) to bounce an icon when launching an application.
+LaunchBounceTime=1000
+#The amount of time (in ms) for active window indicator animations.
+ActiveTime=1500
+#The amount of time (in ms) to slide icons into/out of the dock.
+SlideTime=500
+#The time (in ms) to fade the dock in/out on a hide (if FadeOpacity is < 1).
+FadeTime=400
+#The time (in ms) to slide the dock in/out on a hide (if FadeOpacity is 1).
+HideTime=500
+#The size of the urgent glow (shown when dock is hidden), in tenths of a percent of IconSize.
+GlowSize=30
+#The total time (in ms) to show the hidden-dock urgent glow.
+GlowTime=10000
+#The time (in ms) of each pulse of the hidden-dock urgent glow.
+GlowPulseTime=20000
+#The hue-shift (-180 to 180) of the urgent indicator color.
+UrgentHueShift=0
+#The time (in ms) to move an item to its new position or its addition/removal to/from the dock.
+ItemMoveTime=800
+#Whether background and icons will unhide/hide with different speeds. The top-border of both will leave/hit the screen-edge at the same time.
+CascadeHide=true
+#The color (RGBA) of the badge displaying urgent count
+BadgeColor=200;;200;;200;;255
+#The badge style, styles: indicator-color, solid
+BadgeStyle=1
+#The color (RGBA) of the badge text displaying urgent count
+BadgeTextColor=64;;64;;64;;255
+#The style of the active item, styles: gradient, color-gradient, solid, color-solid, center-gradient, color-center-gradient.
+ActiveItemStyle=3
+#The color (RGBA) of the active item background.
+ActiveItemColor=0;;0;;0;;0
+#Whether hovered dock items draw a theme-controlled pulsing glow.
+HoverGlowEnabled=false
+#The RGBA color of the hovered item glow. Transparent means use the item's average icon color.
+HoverGlowColor=0;;0;;0;;0
+#The hovered item glow radius multiplier relative to the hover region.
+HoverGlowSize=0.8
+#The hovered item glow opacity multiplier, from 0 to 1.
+HoverGlowStrength=0
+#The hovered item glow pulse time in milliseconds.
+HoverGlowPulseTime=1400
+#Whether active item backgrounds subtly pulse while active.
+ActivePulseEnabled=false
+#The active item pulse time in milliseconds.
+ActivePulseTime=2400
+#The active item pulse opacity addition, from 0 to 1.
+ActivePulseStrength=0
+#The color used for item progress bars. Transparent means use urgent/indicator color.
+ProgressColor=0;;0;;0;;0
+#The color used for item progress bar backgrounds. Transparent means use default dark background.
+ProgressBackgroundColor=0;;0;;0;;0
+#Whether item progress bars draw a soft glow.
+ProgressGlowEnabled=false
+#The progress bar glow opacity multiplier, from 0 to 1.
+ProgressGlowStrength=0

@@ -1,0 +1,691 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-11-13 21:49\n"
+"Last-Translator: \n"
+"Language-Team: Esperanto\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: eo\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "Plank Reloaded"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "Ankoraŭ simple simpla"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"Plank Reloaded estas forko de la origina Plank projekto, provizante simplan "
+"doksistemon por X11 labortablaj medioj. Kvankam evoluo komenciĝis kun fokuso "
+"sur Cinnamon, ni nun aktive subtenas plurajn labortablajn mediojn inkluzive "
+"MATE kaj Xfce. Wayland ne estas subtenata nun."
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"Kiel ĝia antaŭulo, Plank Reloaded celas esti la plej simpla doksistemo sur "
+"la planedo, provizante nur tion, kion doksistemo bezonas kaj absolute nenion "
+"pli. Ĝi ankaŭ restas biblioteko kiu povas esti etendita por krei aliajn "
+"doksistemajn programojn kun pli altnivelajn funkciojn."
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "Doksistemo kun Matte etoso"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "Aspektaj Agordoj"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "Kondutaj Agordoj"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "Doksistemaj Agordoj"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "Doksistemo"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "Etoso:"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "Pozicio:"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "Maldekstre"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "Dekstre"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "Supre"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "Malsupre"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "Sur Aktiva Ekrano:"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "Enketa intervalo en sekundoj por aktiva ekrana detekto"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "Ĝisrandigo:"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "Plenigi"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "Starto"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "Fino"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "Centro"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "Sur Ĉefa Ekrano:"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "Deŝovo en elcento de la centro de la ekranrando"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "Piktograma Ĝisrandigo:"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "Piktograma Grando:"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "Piktograma Zomo:"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "Interspaca Grando:"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "Aspekto"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "Inteligenta kaŝo"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "Aŭtomate kaŝi"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "Eviti maksimumigitan fenestron"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "Fenestra Evito"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "Eviti aktivan fenestron"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "Kaŝi Doksistemon"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "Kaŝa Prokrasto:"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "Prokrasto en ms antaŭ kaŝi la doksistemon"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "Malkaŝa Prokrasto:"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "Prokrasto en ms antaŭ montri la doksistemon"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "Prema Malkaŝo:"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "Ero-Administrado"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "Montri Malfiksitajn:"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "Limigi al Laborspaco:"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "Ŝpruchelpiloj Ŝaltitaj:"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "Ŝlosi Piktogramojn:"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "Ankri Doksistemojn:"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "Ankri Dosierojn:"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "Konduto"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "Doksistemoj"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "Neniuj aplikaĵoj disponeblaj"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "Aplikaĵoj"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "Redakti Menuon"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "Elekti Propran Piktogramon"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "Restarigi al Defaŭlta Piktogramo"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "Grandaj Piktogramoj"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "Elekti Propran Piktogramon"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "Elekti"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "Bildaj Dosieroj"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "Simple lanĉu iun ajn el viaj aplikaĵoj."
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "Neniu baterio"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "Baterioj"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "Neniuj baterioj trovitaj"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "Eraro trovante bateriojn"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "Baterio"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "Montras baterian informon"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "Tondujo estas nun malplena."
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_Viŝi"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "Spuri Musan Elektaĵojn"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "Spuri Bildojn"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "Ŝalti Tondujan Spuradon"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "Maksimumaj Enskriboj"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "Bildo"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "Clippy"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "Konservi lastatempajn tondujajn enskribojn."
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "Di_gita Horloĝo"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "24-Hora _Horloĝo"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "Montri _Daton"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "Horloĝo"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "Kioma horo estas?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "Kalendaro"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "CPU Monitoro"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "Gardu okulon sur tiu CPU. Kaj kiam ĝi eksertas..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "Montri Labortablon"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "Labortablo"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "Montri vian Labortablon."
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "Sciigoj"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "ĵus nun"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "antaŭ %d minuto"
+msgstr[1] "antaŭ %d minutoj"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "antaŭ %d horo"
+msgstr[1] "antaŭ %d horoj"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "Ŝalti _Eksvalidiĝon"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "Montri _Nombron"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "Montri _Pasemantan"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "Viŝi Sciigojn"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "Simpla sciiga doksistemo."
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "Neniuj eroj en Rubujo"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "%u ero en Rubujo"
+msgstr[1] "%u eroj en Rubujo"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "Malplenigi ĉiujn erojn el Rubujo?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Ĉiuj eroj en la Rubujo estos daŭre forigitaj."
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_Nuligi"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "Malplenigi _Rubujon"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "Demetu por movi al Rubujo"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "_Malfermi Rubujon"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "Rubujo"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "Rigardu vian rubujon!"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_Stilo"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "_Linio"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_Punkto"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_Spaco"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_Inversigi Koloron"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "Apartigilo"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "Nur apartigilo."
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "Laborspacoj"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "Laborspaco %d el %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "Laborspaco %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "_Vivaj Antaŭrigardoj"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "Grafika laborspaca ŝaltilo."
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "Demetu por aldoni al doksistemo"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Adolfo Jayme https://launchpad.net/~fitojb\n"
+"  Eliovir https://launchpad.net/~eliovir\n"
+"  Kristjan SCHMIDT https://launchpad.net/~kristjan-eo\n"
+"  Michael Moroni https://launchpad.net/~airon90\n"
+"  Rico Tzschichholz https://launchpad.net/~ricotz"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "_Reteni en Doksistemo"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "_Fermi Ĉiujn"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "_Fermi"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "Demetu por malfermi per %s"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "_Vidaj Agordoj"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "_Malfermi en Dosiera Legilo"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "Vidaj Agordoj"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_Bone"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "Ordigi Laŭ:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "Nomo"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "Speco"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "Grando"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "Dato Kreita"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "Dato Modifita"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "Stilo:"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "Simpla"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "Kahelo"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "Grandaj Piktogramoj:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "Montri Kaŝitajn Dosierojn:"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "_Malfermi"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "Malfermi Entenantan _Dosierujon"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "Malplena Dosierujo"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "Demetu aplikaĵojn aŭ dosierojn ĉi tie"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "Akiri _Helpon Interrete..."
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "_Traduki Ĉi Tiun Aplikaĵon..."
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_Agordoj"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "_Pri"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_Eliri"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "Agordoj"
+
+#~ msgid "dock"
+#~ msgstr "doksistemo"
+
+#~ msgid "launch"
+#~ msgstr "lanĉi"
+
+#~ msgid "panel"
+#~ msgstr "panelo"
+
+#~ msgid "start"
+#~ msgstr "komenci"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "La Plank Reloaded Programistoj"

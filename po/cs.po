@@ -1,0 +1,699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-reloaded\n"
+"Report-Msgid-Bugs-To: https://github.com/zquestz/plank-reloaded/issues\n"
+"POT-Creation-Date: 2026-04-13 12:14-1000\n"
+"PO-Revision-Date: 2025-11-13 03:12\n"
+"Last-Translator: \n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Crowdin-Project: plank-reloaded\n"
+"X-Crowdin-Project-ID: 768623\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: plank-reloaded.pot\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: data/plank.appdata.xml.in:6 data/net.launchpad.plank.desktop.in:2
+msgid "Plank Reloaded"
+msgstr "Plank Reloaded"
+
+#: data/plank.appdata.xml.in:7 data/net.launchpad.plank.desktop.in:4
+msgid "Still stupidly simple"
+msgstr "Stále hloupě jednoduché"
+
+#: data/plank.appdata.xml.in:9
+msgid ""
+"Plank Reloaded is a fork of the original Plank project, providing a simple "
+"dock for X11 desktop environments. While development began with a focus on "
+"Cinnamon, we now actively support multiple desktop environments including "
+"MATE and Xfce. Wayland is not supported at this time."
+msgstr ""
+"Plank Reloaded je odnož původního projektu Plank, poskytující jednoduchý dok "
+"pro desktopová prostředí X11. Zatímco vývoj začal se zaměřením na Cinnamon, "
+"nyní aktivně podporujeme více desktopových prostředí včetně MATE a Xfce. "
+"Wayland v tuto chvíli není podporován."
+
+#: data/plank.appdata.xml.in:12
+msgid ""
+"Like its predecessor, Plank Reloaded aims to be the simplest dock on the "
+"planet, providing just what a dock needs and absolutely nothing more. It "
+"also remains a library which can be extended to create other dock programs "
+"with more advanced features."
+msgstr ""
+"Stejně jako jeho předchůdce, Plank Reloaded si klade za cíl být "
+"nejjednodušším dokem na planetě, poskytující právě to, co dok potřebuje a "
+"absolutně nic víc. Zároveň zůstává knihovnou, která může být rozšířena pro "
+"vytvoření jiných dokovacích programů s pokročilejšími funkcemi."
+
+#: data/plank.appdata.xml.in:129
+msgid "Dock with Matte theme"
+msgstr "Dok s motivem Matte"
+
+#: data/plank.appdata.xml.in:133
+msgid "Appearance Preferences"
+msgstr "Předvolby vzhledu"
+
+#: data/plank.appdata.xml.in:137
+msgid "Behavior Preferences"
+msgstr "Předvolby chování"
+
+#: data/plank.appdata.xml.in:141
+msgid "Docklets Preferences"
+msgstr "Předvolby doplňků"
+
+#: data/net.launchpad.plank.desktop.in:3
+msgid "Dock"
+msgstr "Dok"
+
+#: data/ui/preferences.ui:93
+msgid "Theme:"
+msgstr "Motiv:"
+
+#: data/ui/preferences.ui:106
+msgid "Position:"
+msgstr "Umístění:"
+
+#: data/ui/preferences.ui:133
+msgid "Left"
+msgstr "Vlevo"
+
+#: data/ui/preferences.ui:134
+msgid "Right"
+msgstr "Vpravo"
+
+#: data/ui/preferences.ui:135
+msgid "Top"
+msgstr "Nahoře"
+
+#: data/ui/preferences.ui:136
+msgid "Bottom"
+msgstr "Dolů"
+
+#: data/ui/preferences.ui:153
+msgid "On Active Display:"
+msgstr "Na aktivním displeji:"
+
+#: data/ui/preferences.ui:180
+msgid "Polling interval in seconds for active display detection"
+msgstr "Interval dotazování v sekundách pro detekci aktivního displeje"
+
+#: data/ui/preferences.ui:197
+msgid "Alignment:"
+msgstr "Zarovnání:"
+
+#: data/ui/preferences.ui:210
+msgid "Fill"
+msgstr "Vyplnit"
+
+#: data/ui/preferences.ui:211 data/ui/preferences.ui:289
+msgid "Start"
+msgstr "Začátek"
+
+#: data/ui/preferences.ui:212 data/ui/preferences.ui:290
+msgid "End"
+msgstr "Konec"
+
+#: data/ui/preferences.ui:213 data/ui/preferences.ui:291
+msgid "Center"
+msgstr "Uprostřed"
+
+#: data/ui/preferences.ui:229
+msgid "On Primary Display:"
+msgstr "Na primární monitor:"
+
+#: data/ui/preferences.ui:255
+msgid "Offset in percent from the center of the screen-edge"
+msgstr "Odsazení v procentech od středu hrany obrazovky"
+
+#: data/ui/preferences.ui:275
+msgid "Icon Alignment:"
+msgstr "Zarovnání ikon:"
+
+#: data/ui/preferences.ui:305
+msgid "Icon Size:"
+msgstr "Velikost ikon:"
+
+#: data/ui/preferences.ui:371
+msgid "Icon Zoom:"
+msgstr "Zvětšení ikon:"
+
+#: data/ui/preferences.ui:385
+msgid "Gap Size:"
+msgstr "Velikost mezery:"
+
+#: data/ui/preferences.ui:436
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: data/ui/preferences.ui:456
+msgid "Intellihide"
+msgstr "Inteligentní skrývání"
+
+#: data/ui/preferences.ui:457
+msgid "Autohide"
+msgstr "Automatické skrývání"
+
+#: data/ui/preferences.ui:458
+msgid "Dodge maximized window"
+msgstr "Skrýt při maximalizovaném okně"
+
+#: data/ui/preferences.ui:459
+msgid "Window Dodge"
+msgstr "Dotyk okna"
+
+#: data/ui/preferences.ui:460
+msgid "Dodge active window"
+msgstr "Uhnout aktivnímu oknu"
+
+#: data/ui/preferences.ui:486
+msgid "Hide Dock"
+msgstr "Skrýt Dock"
+
+#: data/ui/preferences.ui:502
+msgid "Hide Delay:"
+msgstr "Prodleva skrytí:"
+
+#: data/ui/preferences.ui:516
+msgid "Delay in ms before hiding the dock"
+msgstr "Zpoždění v ms před skrytím doku"
+
+#: data/ui/preferences.ui:535
+msgid "Unhide Delay:"
+msgstr "Prodleva zobrazení:"
+
+#: data/ui/preferences.ui:549
+msgid "Delay in ms before showing the dock"
+msgstr "Zpoždění v ms před zobrazením doku"
+
+#: data/ui/preferences.ui:568
+msgid "Pressure Reveal:"
+msgstr "Odhalení tlakem:"
+
+#: data/ui/preferences.ui:595
+msgid "Item Management"
+msgstr "Správa položek"
+
+#: data/ui/preferences.ui:614
+msgid "Show Unpinned:"
+msgstr "Zobrazit nepřipnuté:"
+
+#: data/ui/preferences.ui:641
+msgid "Restrict to Workspace:"
+msgstr "Omezit na plochu:"
+
+#: data/ui/preferences.ui:669
+msgid "Tooltips Enabled:"
+msgstr "Nápovědy povoleny:"
+
+#: data/ui/preferences.ui:693
+msgid "Lock Icons:"
+msgstr "Zamknout ikony:"
+
+#: data/ui/preferences.ui:720
+msgid "Anchor Docklets:"
+msgstr "Ukotvit doplňky:"
+
+#: data/ui/preferences.ui:747
+msgid "Anchor Files:"
+msgstr "Ukotvit soubory:"
+
+#: data/ui/preferences.ui:769
+msgid "Behaviour"
+msgstr "Chování"
+
+#: data/ui/preferences.ui:789
+msgid "Docklets"
+msgstr "Doplňky"
+
+#: docklets/Applications/ApplicationsDockItem.vala:34
+msgid "No applications available"
+msgstr "Žádné aplikace k dispozici"
+
+#: docklets/Applications/ApplicationsDockItem.vala:53
+#: docklets/Applications/ApplicationsDocklet.vala:28
+msgid "Applications"
+msgstr "Aplikace"
+
+#: docklets/Applications/ApplicationsDockItem.vala:333
+msgid "Edit Menu"
+msgstr "Upravit menu"
+
+#: docklets/Applications/ApplicationsDockItem.vala:352
+#: docklets/Separator/SeparatorDockItem.vala:325
+msgid "Choose Custom Icon"
+msgstr "Vybrat vlastní ikonu"
+
+#. If custom icon is set, add option to reset to default
+#: docklets/Applications/ApplicationsDockItem.vala:360
+#: docklets/Separator/SeparatorDockItem.vala:332
+msgid "Reset to Default Icon"
+msgstr "Obnovit výchozí ikonu"
+
+#: docklets/Applications/ApplicationsDockItem.vala:370
+msgid "Large Icons"
+msgstr "Velké ikony"
+
+#: docklets/Applications/ApplicationsDockItem.vala:383
+#: docklets/Separator/SeparatorDockItem.vala:258
+msgid "Select Custom Icon"
+msgstr "Vybrat vlastní ikonu"
+
+#: docklets/Applications/ApplicationsDockItem.vala:386
+#: docklets/Separator/SeparatorDockItem.vala:261
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: docklets/Applications/ApplicationsDockItem.vala:387
+#: docklets/Separator/SeparatorDockItem.vala:262
+msgid "Select"
+msgstr "Vybrat"
+
+#: docklets/Applications/ApplicationsDockItem.vala:405
+#: docklets/Separator/SeparatorDockItem.vala:280
+msgid "Image Files"
+msgstr "Obrázkové soubory"
+
+#: docklets/Applications/ApplicationsDockItem.vala:518
+#: docklets/Applications/ApplicationsDockItem.vala:572
+msgid "Unknown"
+msgstr ""
+
+#: docklets/Applications/ApplicationsDocklet.vala:29
+msgid "Simply start any of your applications."
+msgstr "Jednoduše spusťte jakoukoli aplikaci."
+
+#: docklets/Battery/BatteryDockItem.vala:28
+#: docklets/Battery/BatteryUPowerDockItem.vala:42
+msgid "No battery"
+msgstr "Žádná baterie"
+
+#: docklets/Battery/BatteryDockItem.vala:150
+msgid "Batteries"
+msgstr "Baterie"
+
+#: docklets/Battery/BatteryDockItem.vala:193
+msgid "No batteries found"
+msgstr "Žádné baterie nenalezeny"
+
+#: docklets/Battery/BatteryDockItem.vala:200
+msgid "Error finding batteries"
+msgstr "Chyba při hledání baterií"
+
+#: docklets/Battery/BatteryDocklet.vala:29
+msgid "Battery"
+msgstr "Baterie"
+
+#: docklets/Battery/BatteryDocklet.vala:31
+msgid "Displays battery information"
+msgstr "Zobrazuje informace o baterii"
+
+#: docklets/Clippy/ClippyDockItem.vala:22
+msgid "Clipboard is currently empty."
+msgstr "Schránka je momentálně prázdná."
+
+#: docklets/Clippy/ClippyDockItem.vala:23
+msgid "_Clear"
+msgstr "_Vymazat"
+
+#: docklets/Clippy/ClippyDockItem.vala:26
+msgid "Track Mouse Selections"
+msgstr "Sledovat výběry myší"
+
+#: docklets/Clippy/ClippyDockItem.vala:27
+msgid "Track Images"
+msgstr "Sledovat obrázky"
+
+#: docklets/Clippy/ClippyDockItem.vala:28
+msgid "Enable Clipboard Tracking"
+msgstr "Povolit sledování schránky"
+
+#: docklets/Clippy/ClippyDockItem.vala:29
+msgid "Maximum Entries"
+msgstr "Maximum položek"
+
+#: docklets/Clippy/ClippyDockItem.vala:192
+#: docklets/Clippy/ClippyClipboardItem.vala:153
+#: docklets/Clippy/ClippyClipboardItem.vala:249
+msgid "Image"
+msgstr "Obrázek"
+
+#: docklets/Clippy/ClippyDocklet.vala:29
+msgid "Clippy"
+msgstr "Clippy"
+
+#: docklets/Clippy/ClippyDocklet.vala:31
+msgid "Keep recent clipboard entries."
+msgstr "Uchovává nedávné položky schránky."
+
+#: docklets/Clock/ClockDockItem.vala:348
+msgid "Di_gital Clock"
+msgstr "Di_gitální hodiny"
+
+#: docklets/Clock/ClockDockItem.vala:353
+msgid "24-Hour _Clock"
+msgstr "24-hodinové _hodiny"
+
+#: docklets/Clock/ClockDockItem.vala:358
+msgid "Show _Date"
+msgstr "Zobrazit _datum"
+
+#: docklets/Clock/ClockDocklet.vala:31
+msgid "Clock"
+msgstr "Hodiny"
+
+#: docklets/Clock/ClockDocklet.vala:33
+msgid "What time is it?"
+msgstr "Kolik je hodin?"
+
+#: docklets/Clock/ClockDockCalendar.vala:9
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:29
+msgid "CPU Monitor"
+msgstr "Monitor CPU"
+
+#: docklets/CPUMonitor/CPUMonitorDocklet.vala:32
+msgid "Keep an eye on that CPU. And when it gets out of line..."
+msgstr "Hlídejte své CPU. A když se vymkne kontrole..."
+
+#: docklets/Desktop/DesktopDockItem.vala:45
+msgid "Show Desktop"
+msgstr "Zobrazit plochu"
+
+#: docklets/Desktop/DesktopDocklet.vala:33
+msgid "Desktop"
+msgstr "Plocha"
+
+#: docklets/Desktop/DesktopDocklet.vala:35
+msgid "Show your Desktop."
+msgstr "Zobrazí vaši plochu."
+
+#: docklets/Notifications/NotificationsDockItem.vala:264
+#: docklets/Notifications/NotificationsDocklet.vala:28
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: docklets/Notifications/NotificationsDockItem.vala:998
+msgid "just now"
+msgstr "právě teď"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1001
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "před %d minutou"
+msgstr[1] "před %d minutami"
+msgstr[2] "před %d minutami"
+msgstr[3] "před %d minutami"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1004
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "před %d hodinou"
+msgstr[1] "před %d hodinami"
+msgstr[2] "před %d hodinami"
+msgstr[3] "před %d hodinami"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1050
+msgid "Enable _Expiry"
+msgstr "Povolit _vypršení"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1058
+msgid "Show _Count"
+msgstr "Zobrazit _počet"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1066
+msgid "Show _Transient"
+msgstr "Zobrazit _přechodné"
+
+#: docklets/Notifications/NotificationsDockItem.vala:1082
+msgid "Clear Notifications"
+msgstr "Vymazat oznámení"
+
+#: docklets/Notifications/NotificationsDocklet.vala:29
+msgid "Simple notifications docklet."
+msgstr "Jednoduchý doplněk oznámení."
+
+#: docklets/Trash/TrashDockItem.vala:102
+msgid "No items in Trash"
+msgstr "Žádné položky v koši"
+
+#: docklets/Trash/TrashDockItem.vala:103
+#, c-format
+msgid "%u item in Trash"
+msgid_plural "%u items in Trash"
+msgstr[0] "%u položka v koši"
+msgstr[1] "%u položky v koši"
+msgstr[2] "%u položek v koši"
+msgstr[3] "%u položek v koši"
+
+#: docklets/Trash/TrashDockItem.vala:278
+msgid "Empty all items from Trash?"
+msgstr "Vyprázdnit všechny položky z koše?"
+
+#: docklets/Trash/TrashDockItem.vala:281
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Všechny položky v koši budou trvale smazány."
+
+#: docklets/Trash/TrashDockItem.vala:282 lib/Items/FileDockItem.vala:305
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: docklets/Trash/TrashDockItem.vala:283 docklets/Trash/TrashDockItem.vala:413
+msgid "Empty _Trash"
+msgstr "Vyprázdnit _koš"
+
+#: docklets/Trash/TrashDockItem.vala:372
+msgid "Drop to move to Trash"
+msgstr "Upustit pro přesun do koše"
+
+#: docklets/Trash/TrashDockItem.vala:409
+msgid "_Open Trash"
+msgstr "_Otevřít koš"
+
+#: docklets/Trash/TrashDocklet.vala:29
+msgid "Trash"
+msgstr "Koš"
+
+#: docklets/Trash/TrashDocklet.vala:31
+msgid "Have a look at your trash!"
+msgstr "Podívejte se do svého koše!"
+
+#: docklets/Separator/SeparatorDockItem.vala:341
+msgid "_Style"
+msgstr "_Styl"
+
+#: docklets/Separator/SeparatorDockItem.vala:346
+msgid "_Line"
+msgstr "_Čára"
+
+#: docklets/Separator/SeparatorDockItem.vala:356
+msgid "_Dot"
+msgstr "_Tečka"
+
+#: docklets/Separator/SeparatorDockItem.vala:366
+msgid "_Space"
+msgstr "_Mezera"
+
+#: docklets/Separator/SeparatorDockItem.vala:379
+#: docklets/Workspaces/WorkspacesDockItem.vala:571
+msgid "_Invert Color"
+msgstr "_Invertovat barvu"
+
+#: docklets/Separator/SeparatorDocklet.vala:28
+msgid "Separator"
+msgstr "Oddělovač"
+
+#: docklets/Separator/SeparatorDocklet.vala:29
+msgid "Just a separator."
+msgstr "Jen oddělovač."
+
+#. *
+#. * Returns the display name for this docklet.
+#. *
+#. * @return the docklet's name
+#.
+#: docklets/Workspaces/WorkspacesDockItem.vala:49
+#: docklets/Workspaces/WorkspacesDocklet.vala:47
+msgid "Workspaces"
+msgstr "Plochy"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:188
+#: docklets/Workspaces/WorkspacesDockItem.vala:214
+#: docklets/Workspaces/WorkspacesDockItem.vala:226
+#, c-format
+msgid "Workspace %d of %d"
+msgstr "Plocha %d z %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:549
+#, c-format
+msgid "Workspace %d"
+msgstr "Plocha %d"
+
+#: docklets/Workspaces/WorkspacesDockItem.vala:578
+msgid "_Live Previews"
+msgstr "_Živé náhledy"
+
+#. *
+#. * Returns the description of this docklet.
+#. *
+#. * @return the docklet's description
+#.
+#: docklets/Workspaces/WorkspacesDocklet.vala:54
+msgid "A graphical workspace switcher."
+msgstr "Grafický přepínač ploch."
+
+#: lib/DragManager.vala:488 lib/Items/PlaceholderDockItem.vala:51
+msgid "Drop to add to dock"
+msgstr "Upustit pro přidání do panelu"
+
+#: lib/Factories/AbstractMain.vala:432 src/Main.vala:74
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  David Mikšovský https://launchpad.net/~miksovsky-david\n"
+"  Jan Gnip https://launchpad.net/~gnip-jan\n"
+"  Jiří Šebele https://launchpad.net/~sindriava+launchpad\n"
+"  Lebus https://launchpad.net/~lebus88\n"
+"  Rico Tzschichholz https://launchpad.net/~ricotz\n"
+"  Tomáš Jakl https://launchpad.net/~tomasjakll\n"
+"  zimmi https://launchpad.net/~zimmicz"
+
+#: lib/Items/ApplicationDockItem.vala:444 lib/Items/FileDockItem.vala:285
+#: lib/Items/FileDockItem.vala:405
+msgid "_Keep in Dock"
+msgstr "_Ponechat v liště"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close All"
+msgstr "_Zavřít vše"
+
+#: lib/Items/ApplicationDockItem.vala:452
+msgid "_Close"
+msgstr "_Zavřít"
+
+#: lib/Items/ApplicationDockItem.vala:596
+#, c-format
+msgid "Drop to open with %s"
+msgstr "Upuštěním otevřít s %s"
+
+#: lib/Items/FileDockItem.vala:274
+msgid "_View Options"
+msgstr "_Možnosti zobrazení"
+
+#: lib/Items/FileDockItem.vala:291 lib/Items/FileDockItem.vala:568
+msgid "_Open in File Browser"
+msgstr "Otevřít ve správci souborů"
+
+#: lib/Items/FileDockItem.vala:302
+msgid "View Options"
+msgstr "Možnosti zobrazení"
+
+#: lib/Items/FileDockItem.vala:306
+msgid "_OK"
+msgstr "_OK"
+
+#: lib/Items/FileDockItem.vala:320
+msgid "Sort By:"
+msgstr "Řadit podle:"
+
+#: lib/Items/FileDockItem.vala:324
+msgid "Name"
+msgstr "Názvu"
+
+#: lib/Items/FileDockItem.vala:325
+msgid "Kind"
+msgstr "Druhu"
+
+#: lib/Items/FileDockItem.vala:326
+msgid "Size"
+msgstr "Velikosti"
+
+#: lib/Items/FileDockItem.vala:327
+msgid "Date Created"
+msgstr "Data vytvoření"
+
+#: lib/Items/FileDockItem.vala:328
+msgid "Date Modified"
+msgstr "Data změny"
+
+#: lib/Items/FileDockItem.vala:332
+msgid "Style:"
+msgstr "Styl:"
+
+#: lib/Items/FileDockItem.vala:336
+msgid "Simple"
+msgstr "Jednoduchý"
+
+#: lib/Items/FileDockItem.vala:337
+msgid "Tile"
+msgstr "Dlaždice"
+
+#: lib/Items/FileDockItem.vala:341
+msgid "Large Icons:"
+msgstr "Velké ikony:"
+
+#: lib/Items/FileDockItem.vala:348
+msgid "Show Hidden Files:"
+msgstr "Zobrazit skryté soubory:"
+
+#: lib/Items/FileDockItem.vala:411
+msgid "_Open"
+msgstr "_Otevřít"
+
+#: lib/Items/FileDockItem.vala:415
+msgid "Open Containing _Folder"
+msgstr "Otevřít mateřskou _složku"
+
+#: lib/Items/FileDockItem.vala:550 lib/Items/FileDockItem.vala:552
+msgid "Empty Directory"
+msgstr "Prázdný adresář"
+
+#: lib/Items/PlaceholderDockItem.vala:37
+msgid "Drop applications or files here"
+msgstr "Zde přetáhněte vaše aplikace nebo soubory"
+
+#: lib/Items/PlankDockItem.vala:66
+msgid "Get _Help Online..."
+msgstr "Pomoc online"
+
+#: lib/Items/PlankDockItem.vala:70
+msgid "_Translate This Application..."
+msgstr "_Přeložit tuto aplikaci..."
+
+#: lib/Items/PlankDockItem.vala:76
+msgid "_Preferences"
+msgstr "_Předvolby"
+
+#: lib/Items/PlankDockItem.vala:80
+msgid "_About"
+msgstr "_O aplikaci"
+
+#: lib/Items/PlankDockItem.vala:88
+msgid "_Quit"
+msgstr "_Ukončit"
+
+#: lib/Widgets/PreferencesWindow.vala:103
+msgid "Preferences"
+msgstr "Předvolby"
+
+#~ msgid "dock"
+#~ msgstr "dok"
+
+#~ msgid "launch"
+#~ msgstr "spuštění"
+
+#~ msgid "panel"
+#~ msgstr "panel"
+
+#~ msgid "start"
+#~ msgstr "start"
+
+#~ msgid "The Plank Reloaded Developers"
+#~ msgstr "Vývojáři Plank Reloaded"
